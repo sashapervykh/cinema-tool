@@ -45,6 +45,13 @@ export default defineConfig([
       react: {
         version: "detect",
       },
+      "import-x/resolver": {
+        typescript: {
+          alwaysTryTypes: true,
+          project: "./tsconfig.app.json",
+        },
+      },
+      "import-x/extensions": [".ts", ".tsx", ".js", ".jsx"],
     },
   },
 ]);
