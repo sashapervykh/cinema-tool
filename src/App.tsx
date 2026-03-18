@@ -21,10 +21,7 @@ function App() {
             Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
           </p>
         </div>
-        <button
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
+        <button className="counter" onClick={() => setCount((count) => count + 1)}>
           Count is {count}
         </button>
       </section>
@@ -57,41 +54,25 @@ function App() {
           <p>Join the Vite community</p>
           <ul>
             <li>
-              <svg
-                className="button-icon"
-                role="presentation"
-                aria-hidden="true"
-              >
+              <svg className="button-icon" role="presentation" aria-hidden="true">
                 <use href="/icons.svg#github-icon"></use>
               </svg>
               GitHub
             </li>
             <li>
-              <svg
-                className="button-icon"
-                role="presentation"
-                aria-hidden="true"
-              >
+              <svg className="button-icon" role="presentation" aria-hidden="true">
                 <use href="/icons.svg#discord-icon"></use>
               </svg>
               Discord
             </li>
             <li>
-              <svg
-                className="button-icon"
-                role="presentation"
-                aria-hidden="true"
-              >
+              <svg className="button-icon" role="presentation" aria-hidden="true">
                 <use href="/icons.svg#x-icon"></use>
               </svg>
               X.com
             </li>
             <li>
-              <svg
-                className="button-icon"
-                role="presentation"
-                aria-hidden="true"
-              >
+              <svg className="button-icon" role="presentation" aria-hidden="true">
                 <use href="/icons.svg#bluesky-icon"></use>
               </svg>
               Bluesky

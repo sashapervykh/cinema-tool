@@ -6,7 +6,7 @@ import reactRefresh from "eslint-plugin-react-refresh";
 import importOrder from "eslint-plugin-import-x";
 import effector from "eslint-plugin-effector";
 import tseslint from "typescript-eslint";
-import allyPlugin from "eslint-plugin-jsx-a11y";
+import pluginPrettier from "eslint-config-prettier";
 import { defineConfig, globalIgnores } from "eslint/config";
 
 export default defineConfig([
@@ -19,6 +19,7 @@ export default defineConfig([
       reactPlugin.configs.flat.recommended,
       reactHooks.configs.flat.recommended,
       importOrder.flatConfigs.recommended,
+      pluginPrettier,
       effector.flatConfigs.recommended,
       reactRefresh.configs.vite,
     ],
