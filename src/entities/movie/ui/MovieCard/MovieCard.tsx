@@ -1,17 +1,7 @@
 import { Icon12PictureOutline } from "@vkontakte/icons";
-import {
-  Box,
-  Card,
-  Counter,
-  EllipsisText,
-  Flex,
-  Headline,
-  Paragraph,
-  Spacing,
-  Title,
-  Image,
-} from "@vkontakte/vkui";
+import { Card, Flex, Title, Image } from "@vkontakte/vkui";
 import style from "./MovieCard.module.css";
+import { MovieCardText } from "../MovieCardText/MovieCardText";
 
 interface Props {
   id: number;
@@ -44,27 +34,7 @@ export function MovieCard({ id, poster, name, year, rating }: Props) {
           }
         />
       </div>
-      <Box padding="m">
-        <Title level="3">
-          <EllipsisText maxLines={1}>{name} </EllipsisText>
-        </Title>
-
-        <Spacing size="s" />
-        <Flex gap="s">
-          <Headline level="1">Год: </Headline>
-          <Paragraph>{year}</Paragraph>
-        </Flex>
-        <Spacing size="s" />
-        <Flex gap="s">
-          <Headline level="1">Кинопоиск: </Headline>
-          <Counter>{rating?.kp?.toFixed(1)}</Counter>
-        </Flex>
-        <Spacing size="s" />
-        <Flex gap="s">
-          <Headline level="1">IMDb: </Headline>
-          <Counter>{rating?.imdb?.toFixed(1)}</Counter>
-        </Flex>
-      </Box>
+      <MovieCardText name={name} year={year} rating={rating} />
     </Card>
   );
 }
