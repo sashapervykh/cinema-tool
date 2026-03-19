@@ -1,6 +1,6 @@
 import { Icon12PictureOutline } from "@vkontakte/icons";
 import { Flex, Title, Image } from "@vkontakte/vkui";
-import type { Movie } from "../../types/Movie";
+import type { Movie } from "../../model/types/Movie";
 
 type Props = Pick<Movie, "name" | "poster">;
 

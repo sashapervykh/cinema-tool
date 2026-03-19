@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { fetchMovies } from "../api/fetchMovies";
-import type { SearchResponse } from "../types/SearchResponse";
+import type { SearchResponse } from "../model/types/SearchResponse";
 import { Box, SimpleGrid } from "@vkontakte/vkui";
 import { MovieCard } from "./MovieCard/MovieCard";
 

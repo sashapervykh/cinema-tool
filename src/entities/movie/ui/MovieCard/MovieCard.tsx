@@ -2,7 +2,7 @@ import { Card } from "@vkontakte/vkui";
 import style from "./MovieCard.module.css";
 import { MovieCardText } from "../MovieCardText/MovieCardText";
 import { MovieCardImage } from "../MovieImage/MovieImage";
-import type { Movie } from "../../types/Movie";
+import type { Movie } from "../../model/types/Movie";
 import { useNavigate } from "react-router";
 
 type Props = Omit<Movie, "genres">;
