@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 import { fetchMovies } from "../api/fetchMovies";
 import type { SearchResponse } from "../types/SearchResponse";
-import { Box, Card, Image, Paragraph, SimpleGrid, Spacing, Title } from "@vkontakte/vkui";
-import { Icon12PictureOutline } from "@vkontakte/icons";
-import style from "./movie.module.css";
+import { Box, SimpleGrid } from "@vkontakte/vkui";
+import { MovieCard } from "./MovieCard/MovieCard";
 
 export function Movie() {
   const [response, setResponse] = useState<SearchResponse | undefined>();
@@ -21,25 +20,14 @@ export function Movie() {
       <SimpleGrid minColWidth={250} gap="l">
         {response.docs.map((movie) => {
           return (
-            <Card key={movie.id} mode="shadow" className={style.card}>
-              <div style={{ width: "100%", height: "75%" }}>
-                <Image
-                  src={movie.poster?.url ?? undefined}
-                  borderRadius="l"
-                  widthSize="100%"
-                  heightSize="100%"
-                  style={{ objectFit: "cover" }}
-                  fallbackIcon={
-                    <div>
-                      <Icon12PictureOutline width={40} height={40} />
-                    </div>
-                  }
-                />
-              </div>
-              <Spacing size="m" />
-              <Title level="3">{movie.name}</Title>
-              <Paragraph>{movie.year}</Paragraph>
-            </Card>
+            <MovieCard
+              key={movie.id}
+              id={movie.id}
+              rating={movie.rating}
+              name={movie.name}
+              year={movie.year}
+              poster={movie.poster}
+            />
           );
         })}
       </SimpleGrid>
