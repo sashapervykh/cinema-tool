@@ -1,24 +1,19 @@
-import { useEffect, useState } from "react";
-import { fetchMovies } from "../api/fetchMovies";
-import type { SearchResponse } from "../model/types/SearchResponse";
+import { useEffect } from "react";
 import { Box, SimpleGrid } from "@vkontakte/vkui";
 import { MovieCard } from "./MovieCard/MovieCard";
+import { useUnit } from "effector-react";
+import { $movies, loadNextPage, resetMovies } from "../model/strores/movies.store";
 
 export function Movie() {
-  const [response, setResponse] = useState<SearchResponse | undefined>();
+  const [movies, loadNext, reset] = useUnit([$movies, loadNextPage, resetMovies]);
   useEffect(() => {
-    async function getMovies() {
-      const movies = await fetchMovies();
-      setResponse(movies);
-    }
-    getMovies();
+    loadNext();
+    return () => reset();
   }, []);
-
-  if (!response) return <div>Not received</div>;
   return (
     <Box padding="l">
       <SimpleGrid minColWidth={250} gap="2xl">
-        {response.docs.map((movie) => {
+        {movies.map((movie) => {
           return (
             <MovieCard
               key={movie.id}
