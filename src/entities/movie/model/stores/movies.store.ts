@@ -8,7 +8,7 @@ export const loadNextPage = createEvent();
 export const $movies = createStore<Movie[]>([])
   .on(getMoviesFx.doneData, (state, { docs }) => [...state, ...docs])
   .reset(resetMovies);
-export const $page = createStore(1)
+export const $page = createStore(0)
   .on(loadNextPage, (page) => page + 1)
   .reset(resetMovies);
 export const $isLoading = getMoviesFx.pending;

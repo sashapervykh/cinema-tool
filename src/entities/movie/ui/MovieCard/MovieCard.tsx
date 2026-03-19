@@ -5,7 +5,7 @@ import { MovieCardImage } from "../MovieImage/MovieImage";
 import type { Movie } from "../../model/types/Movie";
 import { useNavigate } from "react-router";
 
-type Props = Omit<Movie, "genres">;
+type Props = Omit<Movie, "genres" | "description" | "premiere">;
 
 export function MovieCard({ id, poster, name, year, rating }: Props) {
   const navigate = useNavigate();

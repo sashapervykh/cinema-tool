@@ -7,5 +7,6 @@ export async function fetchMovies({ page }: { page: number }) {
     schema: searchResponseSchema,
     params: { page: page.toString() },
   });
+  console.log(response);
   return response;
 }

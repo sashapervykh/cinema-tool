@@ -1,6 +1,65 @@
 {
   "docs": [
     {
+      "id": "11613695",
+      "alternativeName": "Мульт в кино. Выпуск №193. Навстречу приключениям",
+      "backdrop": {
+        "url": "https://avatars.mds.yandex.net/get-ott/13051577/2a0000019cfab930c41ecf044e294c2d285e/1344x756",
+        "previewUrl": "https://avatars.mds.yandex.net/get-ott/13051577/2a0000019cfab930c41ecf044e294c2d285e/678x380"
+      },
+      "countries": [
+        {
+          "name": "Россия"
+        }
+      ],
+      "description": "Катя и Эф решают побывать на дне океана, Ми-ми-мишки открывают парк развлечений и находят книгу предсказаний, а Майя и Хозяин волшебной кухни устраивают кулинарный поединок.",
+      "genres": [
+        {
+          "name": "мультфильм"
+        },
+        {
+          "name": "детский"
+        },
+        {
+          "name": "приключения"
+        }
+      ],
+      "isSeries": false,
+      "movieLength": 45,
+      "name": "Мульт в кино. Выпуск №193. Навстречу приключениям",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/1bc576df-db3a-4e7b-b1d9-9c28b0d6ac1f/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/1bc576df-db3a-4e7b-b1d9-9c28b0d6ac1f/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "ticketsOnSale": false,
+      "type": "cartoon",
+      "typeNumber": 3,
+      "votes": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "year": 2026,
+      "names": [
+        {
+          "name": "Мульт в кино. Выпуск №193. Навстречу приключениям",
+          "language": "RU",
+          "type": "Russian title on kinopoisk"
+        }
+      ]
+    },
+    {
       "id": "11535475",
       "alternativeName": "The Silent Noise",
       "countries": [
@@ -2593,61 +2652,11 @@
           "type": "Russian title on kinopoisk"
         }
       ]
-    },
-    {
-      "id": "11557790",
-      "alternativeName": "Привет, Каролинка!",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
-      "genres": [
-        {
-          "name": "короткометражка"
-        },
-        {
-          "name": "фэнтези"
-        },
-        {
-          "name": "приключения"
-        }
-      ],
-      "isSeries": false,
-      "movieLength": 22,
-      "name": "Привет, Каролинка!",
-      "rating": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2025,
-      "names": [
-        {
-          "name": "Привет, Каролинка!",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
     }
   ],
   "limit": 50,
-  "next": null,
+  "next": "eyJ2IjpbbnVsbF0sImlkIjoiNjliNWRjMTQyNjRmYWU0MWNhYjBjZDBkIn0=",
   "prev": null,
-  "hasNext": false,
+  "hasNext": true,
   "hasPrev": false
 }

@@ -28,8 +28,8 @@ export async function fetchData<T extends ZodType>({
     if (!response.ok) {
       throw new Error("API Error");
     }
-    console.log(data);
     data = await response.json();
+    console.log(data);
   }
 
   return schema.parse(data);

@@ -18,6 +18,8 @@ export const movieSchema = z.object({
   name: z.string(),
   year: z.number(),
   genres: z.array(genreSchema),
+  description: z.string().nullable().optional(),
+  premiere: z.string().nullable().optional(),
   poster: posterSchema,
   rating: ratingSchema,
 });

@@ -2,11 +2,12 @@ import { useEffect } from "react";
 import { Box, SimpleGrid } from "@vkontakte/vkui";
 import { MovieCard } from "./MovieCard/MovieCard";
 import { useUnit } from "effector-react";
-import { $movies, loadNextPage, resetMovies } from "../model/strores/movies.store";
+import { $movies, loadNextPage, resetMovies } from "../model/stores/movies.store";
 
 export function Movie() {
   const [movies, loadNext, reset] = useUnit([$movies, loadNextPage, resetMovies]);
   useEffect(() => {
+    console.log("1");
     loadNext();
     return () => reset();
   }, []);
