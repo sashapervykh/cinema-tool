@@ -22,6 +22,7 @@ export async function fetchData<T extends ZodType>({
   let data: unknown;
   if (API_MOCKED) {
     data = mockedMovies;
+    console.log("mocked");
   } else {
     const response = await fetch(url.toString(), { method, headers: { "X-API-KEY": API_TOKEN } });
     if (!response.ok) {
