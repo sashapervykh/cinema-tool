@@ -1,7 +1,7 @@
-import { Icon12PictureOutline } from "@vkontakte/icons";
-import { Card, Flex, Title, Image } from "@vkontakte/vkui";
+import { Card } from "@vkontakte/vkui";
 import style from "./MovieCard.module.css";
 import { MovieCardText } from "../MovieCardText/MovieCardText";
+import { MovieCardImage } from "../MovieImage/MovieImage";
 
 interface Props {
   id: number;
@@ -18,22 +18,7 @@ interface Props {
 export function MovieCard({ id, poster, name, year, rating }: Props) {
   return (
     <Card key={id} mode="shadow" className={style.card}>
-      <div style={{ width: "100%", height: "75%" }}>
-        <Image
-          src={poster?.url ?? undefined}
-          alt={`Постер к фильму "${name}"`}
-          borderRadius="l"
-          widthSize="100%"
-          heightSize="100%"
-          style={{ objectFit: "cover" }}
-          fallbackIcon={
-            <Flex direction="column" justify="center" align="center">
-              <Icon12PictureOutline width={40} height={40} />
-              <Title level="3">Постера нет</Title>
-            </Flex>
-          }
-        />
-      </div>
+      <MovieCardImage poster={poster} name={name} />
       <MovieCardText name={name} year={year} rating={rating} />
     </Card>
   );
