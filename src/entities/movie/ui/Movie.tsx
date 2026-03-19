@@ -17,7 +17,7 @@ export function Movie() {
   if (!response) return <div>Not received</div>;
   return (
     <Box padding="l">
-      <SimpleGrid minColWidth={250} gap="l">
+      <SimpleGrid minColWidth={250} gap="2xl">
         {response.docs.map((movie) => {
           return (
             <MovieCard
