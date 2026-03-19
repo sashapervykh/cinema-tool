@@ -1,24 +1,19 @@
-import { Flex, Link, PanelHeader, Paragraph } from "@vkontakte/vkui";
+import { Link, Panel, PanelHeader } from "@vkontakte/vkui";
 import { Outlet } from "react-router";
+import { AppFooter } from "../AppFooter/AppFooter";
+
+import { NavButtons } from "../NavButtons/NavButtons";
 
 export function AppLayout() {
   return (
-    <>
-      <header>
-        <PanelHeader>
-          <Link href="/">KinoVed</Link>
-        </PanelHeader>
-      </header>
-      <main>
+    <Panel>
+      <PanelHeader style={{ maxHeight: "10vh" }} after={<NavButtons />}>
+        <Link href="/">KinoVed</Link>
+      </PanelHeader>
+      <main style={{ maxHeight: "85vh", flex: 1, overflowY: "scroll" }}>
         <Outlet />
       </main>
-      <footer>
-        <Flex>
-          <Paragraph>
-            Сделано <Link href="https://github.com/sashapervykh">Сашей Первых</Link>
-          </Paragraph>
-        </Flex>
-      </footer>
-    </>
+      <AppFooter />
+    </Panel>
   );
 }
