@@ -70,7 +70,6 @@ export function DetailCard() {
           </Flex>
           <Spacing size="2xl" />
           <Spacing size="2xl" />
-
           {currentMovie.description && (
             <>
               <Separator />
