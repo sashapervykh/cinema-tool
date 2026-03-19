@@ -1,10 +1,8 @@
 import { Icon12PictureOutline } from "@vkontakte/icons";
 import { Flex, Title, Image } from "@vkontakte/vkui";
+import type { Movie } from "../../types/Movie";
 
-interface Props {
-  name: string;
-  poster: { url: string | null; previewUrl: string | null } | null | undefined;
-}
+type Props = Pick<Movie, "name" | "poster">;
 
 export function MovieCardImage({ name, poster }: Props) {
   return (

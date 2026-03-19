@@ -8,16 +8,9 @@ import {
   Spacing,
   Title,
 } from "@vkontakte/vkui";
+import type { Movie } from "../../types/Movie";
 
-interface Props {
-  name: string;
-  year: number;
-  rating: {
-    [x: string]: unknown;
-    kp: number | null;
-    imdb: number | null;
-  } | null;
-}
+type Props = Pick<Movie, "name" | "year" | "rating">;
 
 export function MovieCardText({ name, year, rating }: Props) {
   return (

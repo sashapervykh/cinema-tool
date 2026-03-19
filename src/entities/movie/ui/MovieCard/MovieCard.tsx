@@ -2,18 +2,9 @@ import { Card } from "@vkontakte/vkui";
 import style from "./MovieCard.module.css";
 import { MovieCardText } from "../MovieCardText/MovieCardText";
 import { MovieCardImage } from "../MovieImage/MovieImage";
+import type { Movie } from "../../types/Movie";
 
-interface Props {
-  id: number;
-  name: string;
-  year: number;
-  poster: { url: string | null; previewUrl: string | null } | null | undefined;
-  rating: {
-    [x: string]: unknown;
-    kp: number | null;
-    imdb: number | null;
-  } | null;
-}
+type Props = Omit<Movie, "genres">;
 
 export function MovieCard({ id, poster, name, year, rating }: Props) {
   return (
