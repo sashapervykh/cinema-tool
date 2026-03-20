@@ -4,6 +4,7 @@ import { PageTitle } from "../../shared/ui/PageTitle/PageTitles";
 import { MoviesList } from "../../widgets/MoviesList.tsx/ui/MoviesList";
 import { useUnit } from "effector-react";
 import { $movies, loadNextPage, resetMovies } from "../../entities/movie/model/stores/movies.store";
+import { ComparingArea } from "../../features/compare-movies/ui/ComparingArea/ComparingArea";
 
 export function Main() {
   const [movies, loadNext, reset] = useUnit([$movies, loadNextPage, resetMovies]);
@@ -17,6 +18,7 @@ export function Main() {
       <PageTitle title="НАЙДИ СВОЕ КИНО" />
       <MoviesList movies={movies} />
       <FavoriteModal />
+      <ComparingArea />
     </>
   );
 }
