@@ -1,16 +1,16 @@
 import { Icon28HeartCircleOutline } from "@vkontakte/icons";
 import { Flex, Tooltip } from "@vkontakte/vkui";
-import style from "./FavoriteButton.module.css";
+import styles from "./FavoriteButton.module.css";
 
 export function FavoriteButton() {
   return (
     <Flex
-      className={style["fav-button"]}
+      className={styles["fav-icon"]}
       onClick={() => {
         console.log("liked");
       }}
     >
-      <Tooltip>
+      <Tooltip description="В избранное">
         <Icon28HeartCircleOutline />
       </Tooltip>
     </Flex>
