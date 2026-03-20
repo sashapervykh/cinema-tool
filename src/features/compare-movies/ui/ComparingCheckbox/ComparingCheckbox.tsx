@@ -1,5 +1,5 @@
 import { Checkbox, Flex, Tooltip } from "@vkontakte/vkui";
-import styles from "./CompareCheckbox.module.css";
+import styles from "./ComparingCheckbox.module.css";
 import { useUnit } from "effector-react";
 import {
   $comparedMovies,
@@ -8,7 +8,7 @@ import {
 } from "../../models/comparing.store";
 import type { Movie } from "../../../../entities/movie/model/types/Movie";
 
-export function CompareCheckbox({ movie }: { movie: Movie }) {
+export function ComparingCheckbox({ movie }: { movie: Movie }) {
   const [comparedMovies, add, remove] = useUnit([
     $comparedMovies,
     addComparedMovie,

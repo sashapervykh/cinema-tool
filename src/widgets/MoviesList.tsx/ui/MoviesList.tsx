@@ -2,7 +2,7 @@ import { Box, SimpleGrid } from "@vkontakte/vkui";
 import { MovieCard } from "../../../entities/movie/ui/MovieCard/MovieCard";
 import { FavoriteButton } from "../../../features/toggle-favorite/ui/FavoriteButton/FavoriteButton";
 import type { Movie } from "../../../entities/movie/model/types/Movie";
-import { CompareCheckbox } from "../../../features/compare-movies/ui/CompareCheckbox/CompareCheckbox";
+import { ComparingCheckbox } from "../../../features/compare-movies/ui/ComparingCheckbox/ComparingCheckbox";
 
 export function MoviesList({ movies }: { movies: Movie[] }) {
   return (
@@ -19,7 +19,7 @@ export function MoviesList({ movies }: { movies: Movie[] }) {
               poster={movie.poster}
               actions={
                 <>
-                  <CompareCheckbox movie={movie} />
+                  <ComparingCheckbox movie={movie} />
                   <FavoriteButton movie={movie} />
                 </>
               }
