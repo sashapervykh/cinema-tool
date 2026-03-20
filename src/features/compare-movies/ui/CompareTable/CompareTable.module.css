@@ -1,0 +1,15 @@
+.table-wrapper {
+  width: 95%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cell {
+  padding: 8px 16px;
+  border: 1px solid var(--vkui--color_separator_primary);
+  background: var(--vkui--color_background_secondary);
+  text-align: left;
+}

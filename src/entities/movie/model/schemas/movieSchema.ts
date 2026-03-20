@@ -22,4 +22,5 @@ export const movieSchema = z.object({
   premiere: z.string().nullable().optional(),
   poster: posterSchema,
   rating: ratingSchema,
+  movieLength: z.number().nullable().optional(),
 });
