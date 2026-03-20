@@ -6,14 +6,16 @@ import {
   $pendingMovie,
   resetAfterModalClosed,
   closeFavoriteModal,
+  confirmAdding,
 } from "../../model/favorites.store";
 
 export function FavoriteModal() {
-  const [isOpen, pendingMovie, close, reset] = useUnit([
+  const [isOpen, pendingMovie, close, reset, confirm] = useUnit([
     $isModalOpen,
     $pendingMovie,
     closeFavoriteModal,
     resetAfterModalClosed,
+    confirmAdding,
   ]);
 
   return (
@@ -34,7 +36,7 @@ export function FavoriteModal() {
             <Button key="deny" size="l" mode="secondary" stretched onClick={() => close()}>
               Отмена
             </Button>
-            <Button key="allow" size="l" mode="primary" stretched onClick={() => close()}>
+            <Button key="allow" size="l" mode="primary" stretched onClick={() => confirm()}>
               Добавить
             </Button>
           </ButtonGroup>
