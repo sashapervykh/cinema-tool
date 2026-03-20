@@ -1,9 +1,10 @@
-import { Header, Panel } from "@vkontakte/vkui";
+import { Panel } from "@vkontakte/vkui";
 import { createPortal } from "react-dom";
 import { $comparedMovies } from "../../models/comparing.store";
 import { useUnit } from "effector-react";
 import styles from "./ComparingArea.module.css";
 import { ComparingTable } from "../ComparingTable/ComparingTable";
+import { ComparingHeader } from "../ComparingHeader/CompatingHeader";
 
 export function ComparingArea() {
   const [comparedMovies] = useUnit([$comparedMovies]);
@@ -11,7 +12,7 @@ export function ComparingArea() {
 
   return createPortal(
     <Panel className={styles["comparing-area"]} centered={true}>
-      <Header size="m">Выберите еще один фильм</Header>
+      <ComparingHeader />
       <ComparingTable />
     </Panel>,
     document.body
