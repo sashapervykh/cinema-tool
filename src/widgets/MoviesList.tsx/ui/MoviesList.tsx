@@ -7,7 +7,7 @@ import {
   resetMovies,
 } from "../../../entities/movie/model/stores/movies.store";
 import { MovieCard } from "../../../entities/movie/ui/MovieCard/MovieCard";
-import { FavoriteButton } from "../../../features/toggle-favorite/ui/FavoriteButton";
+import { FavoriteButton } from "../../../features/toggle-favorite/ui/FavoriteButton/FavoriteButton";
 
 export function MoviesList() {
   const [movies, loadNext, reset] = useUnit([$movies, loadNextPage, resetMovies]);
@@ -28,7 +28,7 @@ export function MoviesList() {
               name={movie.name}
               year={movie.year}
               poster={movie.poster}
-              actions={<FavoriteButton />}
+              actions={<FavoriteButton movie={movie} />}
             />
           );
         })}
