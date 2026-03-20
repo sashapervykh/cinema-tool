@@ -1,6 +1,5 @@
 import { Checkbox, Flex, Tooltip } from "@vkontakte/vkui";
 import styles from "./CompareCheckbox.module.css";
-import { useState } from "react";
 import { useUnit } from "effector-react";
 import {
   $comparedMovies,
@@ -15,8 +14,7 @@ export function CompareCheckbox({ movie }: { movie: Movie }) {
     addComparedMovie,
     removeComparedMovie,
   ]);
-  const isChecked = comparedMovies.some((m) => m.id === movie.id);
-  const [checked, setChecked] = useState(isChecked);
+  const checked = comparedMovies.some((m) => m.id === movie.id);
   return (
     <Tooltip description="Сравнить" placement="right">
       <Flex className={styles["compare-checkbox"]}>
@@ -28,7 +26,6 @@ export function CompareCheckbox({ movie }: { movie: Movie }) {
             } else {
               remove(movie.id);
             }
-            setChecked((c) => !c);
           }}
         />
       </Flex>
