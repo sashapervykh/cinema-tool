@@ -4,6 +4,7 @@ import { MovieCardText } from "../MovieCardText/MovieCardText";
 import { MovieCardImage } from "../MovieImage/MovieImage";
 import type { Movie } from "../../model/types/Movie";
 import { useNavigate } from "react-router";
+import { ROUTES } from "../../../../shared/config/routes";
 
 type Props = Omit<Movie, "genres" | "description" | "premiere">;
 
@@ -14,7 +15,7 @@ export function MovieCard({ id, poster, name, year, rating }: Props) {
       mode="shadow"
       className={style.card}
       onClick={() => {
-        navigate(`/movies/${id}`);
+        navigate(`${ROUTES.MOVIES}/${id}`);
       }}
     >
       <MovieCardImage poster={poster} name={name} />
