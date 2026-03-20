@@ -1,5 +1,5 @@
 import { PageTitle } from "../../shared/ui/PageTitle/PageTitles";
-import { MoviesList } from "../../widget/ui/MoviesList.tsx/MoviesList";
+import { MoviesList } from "../../widgets/MoviesList.tsx/ui/MoviesList";
 
 export function Main() {
   return (
