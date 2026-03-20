@@ -1,4 +1,4 @@
-import { Icon24HealthOutline, Icon24SquareGrid3x3 } from "@vkontakte/icons";
+import { Icon24HeartGearOutline, Icon24SquareGrid3x3 } from "@vkontakte/icons";
 import { PanelHeaderButton, Tooltip } from "@vkontakte/vkui";
 import { useNavigate } from "react-router";
 import { ROUTES } from "../../config/routes";
@@ -22,7 +22,7 @@ export function NavButtons() {
         }}
       >
         <Tooltip placement="bottom" description="К списку избранного">
-          <Icon24HealthOutline />
+          <Icon24HeartGearOutline />
         </Tooltip>
       </PanelHeaderButton>
     </>
