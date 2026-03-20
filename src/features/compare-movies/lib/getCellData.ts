@@ -1,6 +1,6 @@
 import type { Movie } from "../../../entities/movie/model/types/Movie";
 
-export function getHorizontalRowData(movie: Movie) {
+export function getCellData(movie: Movie) {
   return [
     movie.name,
     movie.year.toString(),
