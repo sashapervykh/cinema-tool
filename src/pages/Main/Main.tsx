@@ -1,12 +1,21 @@
+import { useEffect } from "react";
 import { FavoriteModal } from "../../features/toggle-favorite/ui/FavoriteModal/FavoriteModal";
 import { PageTitle } from "../../shared/ui/PageTitle/PageTitles";
 import { MoviesList } from "../../widgets/MoviesList.tsx/ui/MoviesList";
+import { useUnit } from "effector-react";
+import { $movies, loadNextPage, resetMovies } from "../../entities/movie/model/stores/movies.store";
 
 export function Main() {
+  const [movies, loadNext, reset] = useUnit([$movies, loadNextPage, resetMovies]);
+  useEffect(() => {
+    loadNext();
+    return () => reset();
+  }, []);
+
   return (
     <>
       <PageTitle title="НАЙДИ СВОЕ КИНО" />
-      <MoviesList />
+      <MoviesList movies={movies} />
       <FavoriteModal />
     </>
   );

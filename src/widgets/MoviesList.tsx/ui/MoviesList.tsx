@@ -1,21 +1,9 @@
-import { useEffect } from "react";
 import { Box, SimpleGrid } from "@vkontakte/vkui";
-import { useUnit } from "effector-react";
-import {
-  $movies,
-  loadNextPage,
-  resetMovies,
-} from "../../../entities/movie/model/stores/movies.store";
 import { MovieCard } from "../../../entities/movie/ui/MovieCard/MovieCard";
 import { FavoriteButton } from "../../../features/toggle-favorite/ui/FavoriteButton/FavoriteButton";
+import type { Movie } from "../../../entities/movie/model/types/Movie";
 
-export function MoviesList() {
-  const [movies, loadNext, reset] = useUnit([$movies, loadNextPage, resetMovies]);
-  useEffect(() => {
-    console.log("1");
-    loadNext();
-    return () => reset();
-  }, []);
+export function MoviesList({ movies }: { movies: Movie[] }) {
   return (
     <Box padding="l">
       <SimpleGrid minColWidth={250} gap="2xl">
