@@ -1,9 +1,9 @@
-import { Movie } from "../../entities/movie/ui/Movie";
+import { MoviesList } from "../../widget/ui/MoviesList.tsx/MoviesList";
 
 export function Main() {
   return (
     <div>
-      <Movie />
+      <MoviesList />
     </div>
   );
 }
