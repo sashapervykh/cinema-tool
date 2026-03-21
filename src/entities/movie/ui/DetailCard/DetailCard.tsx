@@ -18,7 +18,7 @@ import { Icon12PictureOutline } from "@vkontakte/icons";
 export function DetailCard() {
   const { id } = useParams();
   const [movies] = useUnit([$movies]);
-  const currentMovie = movies.find((movie) => movie.id === id);
+  const currentMovie = movies.find((movie) => movie.id.toString() === id);
   if (!currentMovie) return <Paragraph>Этот фильм не найден!</Paragraph>;
   return (
     <Box padding="2xl">
