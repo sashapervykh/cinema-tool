@@ -3,23 +3,33 @@ import { RangeSlider } from "./RangeSlider/RangeSlider";
 import { FILTERS_DATA } from "../constants/filtersData";
 import { useUnit } from "effector-react";
 import {
+  $availableGenres,
   $imdbRange,
   $kinopoiskRange,
   $yearRange,
+  getGenresFx,
   setImdbRange,
   setKinopoiskRange,
   setYearRange,
 } from "../model/filters.store";
+import { useEffect } from "react";
 
 export function FiltersPanel() {
-  const [kinopoisk, imdb, year, setKinopoisk, setImdb, setYear] = useUnit([
-    $kinopoiskRange,
-    $imdbRange,
-    $yearRange,
-    setKinopoiskRange,
-    setImdbRange,
-    setYearRange,
-  ]);
+  const [kinopoisk, imdb, year, availableGenres, setKinopoisk, setImdb, setYear, getGenres] =
+    useUnit([
+      $kinopoiskRange,
+      $imdbRange,
+      $yearRange,
+      $availableGenres,
+      setKinopoiskRange,
+      setImdbRange,
+      setYearRange,
+      getGenresFx,
+    ]);
+
+  useEffect(() => {
+    getGenres();
+  }, []);
   return (
     <Panel>
       <Box padding="xl">
@@ -35,13 +45,7 @@ export function FiltersPanel() {
         <ChipsSelect
           id="select-id"
           placeholder="Не выбран"
-          options={[
-            { label: "драма", value: "драма" },
-            { label: "триллер", value: "триллер" },
-            { label: "ужасы", value: "ужасы" },
-            { label: "детектив", value: "детектив" },
-            { label: "криминал", value: "криминал" },
-          ]}
+          options={availableGenres.map((genre) => ({ value: genre, label: genre }))}
         />
       </Box>
     </Panel>

@@ -14,7 +14,7 @@ const ratingSchema = z
 const genreSchema = z.object({ name: z.string() });
 
 export const movieSchema = z.object({
-  id: z.string(),
+  id: z.number(),
   name: z.string(),
   year: z.number(),
   genres: z.array(genreSchema),

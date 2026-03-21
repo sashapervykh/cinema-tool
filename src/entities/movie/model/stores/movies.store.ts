@@ -6,7 +6,7 @@ export const getMoviesFx = createEffect(fetchMovies);
 export const resetMovies = createEvent();
 export const loadNextPage = createEvent();
 export const $movies = createStore<Movie[]>([])
-  .on(getMoviesFx.doneData, (state, { docs }) => [...state, ...docs])
+  .on(getMoviesFx.doneData, (state, value) => [...state, ...value.docs])
   .reset(resetMovies);
 export const $page = createStore(0)
   .on(loadNextPage, (page) => page + 1)
