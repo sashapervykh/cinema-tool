@@ -3,6 +3,8 @@ import { FILTERS_DATA } from "../constants/filtersData";
 import { fetchGenres } from "../api/fetchGenres";
 import type { NavigateFunction } from "react-router";
 import type { Filters } from "./types/Filters";
+import { getMoviesFx, resetMovies } from "../../../entities/movie/model/stores/movies.store";
+import { getParamsFromFilters } from "../lib/getParamsFromFilters";
 
 export const getGenresFx = createEffect(fetchGenres);
 export const applyFilters = createEvent<NavigateFunction>();
@@ -66,4 +68,19 @@ sample({
   source: $filters,
   fn: (filters, navigate) => ({ filters, navigate }),
   target: updateUrlFx,
+});
+
+sample({
+  clock: applyFilters,
+  target: resetMovies,
+});
+
+sample({
+  clock: applyFilters,
+  source: $filters,
+  fn: (filters) => {
+    const params = getParamsFromFilters(filters);
+    return { filters: params, page: 1 };
+  },
+  target: getMoviesFx,
 });
