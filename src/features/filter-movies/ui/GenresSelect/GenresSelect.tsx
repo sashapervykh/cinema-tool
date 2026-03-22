@@ -1,22 +1,9 @@
 import { ChipsSelect, Flex, Headline, Spacing } from "@vkontakte/vkui";
 import { useUnit } from "effector-react";
-import { useEffect } from "react";
-import { $availableGenres, $genres, getGenresFx, setGenres } from "../../model/filters.store";
+import { $availableGenres, $genres, setGenres } from "../../model/filters.store";
 
 export function GenresSelect() {
-  const [availableGenres, genres, getGenres, set] = useUnit([
-    $availableGenres,
-    $genres,
-    getGenresFx,
-    setGenres,
-  ]);
-
-  useEffect(() => {
-    if (availableGenres.length === 0) {
-      console.log("getGenres");
-      getGenres();
-    }
-  }, []);
+  const [availableGenres, genres, set] = useUnit([$availableGenres, $genres, setGenres]);
 
   return (
     <>
