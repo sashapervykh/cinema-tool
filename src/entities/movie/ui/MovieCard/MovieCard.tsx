@@ -17,8 +17,6 @@ export function MovieCard({ id, poster, name, year, rating, actions }: Props & A
         <div style={{ width: "100%", height: "75%" }}>
           <MovieCardImage poster={poster} name={name} />
         </div>
-      </Redirection>
-      <Redirection to={`${ROUTES.MOVIES}/${id}`}>
         <MovieCardText name={name} year={year} rating={rating} />
       </Redirection>
       {actions}
