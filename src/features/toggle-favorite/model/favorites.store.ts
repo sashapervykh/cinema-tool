@@ -7,7 +7,7 @@ export const closeFavoriteModal = createEvent();
 export const confirmAdding = createEvent();
 export const resetAfterModalClosed = createEvent();
 export const addToFavorites = createEvent<Movie>();
-export const removeFromFavorites = createEvent<string>();
+export const removeFromFavorites = createEvent<number>();
 export const $pendingMovie = createStore<Movie | null>(null)
   .on(openFavoriteModal, (_, movie) => movie)
   .reset(resetAfterModalClosed);
