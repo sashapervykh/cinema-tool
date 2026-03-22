@@ -1,15 +1,22 @@
 import { Button, Header } from "@vkontakte/vkui";
 import { useUnit } from "effector-react";
-import { $comparedMovies } from "../../models/comparing.store";
+import { $comparedMovies, resetComparing } from "../../models/comparing.store";
 
 export function ComparingHeader() {
-  const [comparedMovies] = useUnit([$comparedMovies]);
+  const [comparedMovies, reset] = useUnit([$comparedMovies, resetComparing]);
   return (
     <Header size="m">
       {comparedMovies.length === 1 ? (
         "Выберите еще один фильм"
       ) : (
-        <Button mode="secondary">Сбросить</Button>
+        <Button
+          mode="secondary"
+          onClick={() => {
+            reset();
+          }}
+        >
+          Сбросить
+        </Button>
       )}
     </Header>
   );

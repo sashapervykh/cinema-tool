@@ -18,5 +18,5 @@ export const $comparedMovies = createStore<Movie[]>([])
     }
     return [movie];
   })
-  .on(removeComparedMovie, (state, id) => state.filter((m) => m.id !== id))
+  .on(removeComparedMovie, (state, id) => state.filter((m) => m.id.toString() !== id))
   .reset(resetComparing);
