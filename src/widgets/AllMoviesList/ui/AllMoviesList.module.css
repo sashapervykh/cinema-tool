@@ -6,3 +6,9 @@
 .hidden-area {
   height: 100px;
 }
+
+.finish-message {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}

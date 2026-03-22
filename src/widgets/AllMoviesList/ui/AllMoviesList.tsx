@@ -1,4 +1,4 @@
-import { Box, Spinner } from "@vkontakte/vkui";
+import { Box, Paragraph, Spinner } from "@vkontakte/vkui";
 import { useUnit } from "effector-react";
 import { useInfiniteScroll } from "../../../shared/models/useInfiniteScroll";
 import { $movies } from "../../../entities/movie/model/stores/movies.store";
@@ -27,6 +27,11 @@ export function AllMoviesList() {
   return (
     <Box padding="l" className={styles["all-movies"]}>
       <MoviesList movies={movies} />
+      {!isLoading && !next && (
+        <div className={styles["finish-message"]}>
+          <Paragraph>Фильмы по запросу закончились...</Paragraph>
+        </div>
+      )}
       <div ref={loaderRef} className={styles["hidden-area"]}>
         {isLoading && <Spinner size="xl" />}
       </div>
