@@ -13,7 +13,7 @@ export function Favorites() {
       {favorites.length === 0 ? (
         <Paragraph align="center">Вы еще не добавляли фильмы в Избранное...</Paragraph>
       ) : (
-        <MoviesList movies={favorites} />
+        <MoviesList movies={favorites} withCheckBox={false} />
       )}
     </>
   );
