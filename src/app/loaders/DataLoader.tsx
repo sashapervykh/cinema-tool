@@ -1,11 +1,14 @@
+import { useUnit } from "effector-react";
 import { useEffect } from "react";
-import { useParams } from "react-router";
+import { useSearchParams } from "react-router";
+import { initFiltersFx } from "../../features/filter-movies/model/filters.store";
 
 export function DataLoader() {
-  const params = useParams();
+  const [params] = useSearchParams();
+  const [initFilters] = useUnit([initFiltersFx]);
 
   useEffect(() => {
-    console.log("параметры", params);
+    initFilters(params);
   }, []);
 
   return <></>;
