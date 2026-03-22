@@ -1,18 +1,94 @@
 {
   "docs": [
     {
-      "id": "11613695",
-      "alternativeName": "Мульт в кино. Выпуск №193. Навстречу приключениям",
-      "backdrop": {
-        "url": "https://avatars.mds.yandex.net/get-ott/13051577/2a0000019cfab930c41ecf044e294c2d285e/1344x756",
-        "previewUrl": "https://avatars.mds.yandex.net/get-ott/13051577/2a0000019cfab930c41ecf044e294c2d285e/678x380"
-      },
-      "countries": [
+      "id": 11612045,
+      "name": "Театр в кино: Шурале",
+      "year": 2025,
+      "genres": [
         {
-          "name": "Россия"
+          "name": "фэнтези"
+        },
+        {
+          "name": "приключения"
+        },
+        {
+          "name": "мелодрама"
+        },
+        {
+          "name": "музыка"
         }
       ],
-      "description": "Катя и Эф решают побывать на дне океана, Ми-ми-мишки открывают парк развлечений и находят книгу предсказаний, а Майя и Хозяин волшебной кухни устраивают кулинарный поединок.",
+      "description": "Девушку-птицу Сююмбике похищает и пленяет злой лесной дух Шурале. Спасать Сююмбике отправляется отважный охотник Былтыр.",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/8e024ba3-444c-4d31-bb88-72f06b6b1818/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/8e024ba3-444c-4d31-bb88-72f06b6b1818/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "movieLength": 90
+    },
+    {
+      "id": 11643251,
+      "name": "Хоровод",
+      "year": 2026,
+      "genres": [
+        {
+          "name": "концерт"
+        },
+        {
+          "name": "музыка"
+        }
+      ],
+      "description": "Режиссер Ульяна Анохина на протяжении трёх лет снимает группу «Бонд с кнопкой» в самых разных ситуациях и обстоятельствах: в быту, на репетициях, в туре и на фестивалях. В объективе камеры: рождение одной из песен в студии, хроника первого исполнения другой, воплощение с детским хором третьей. А затем наступает время концерта: свыше шести тысяч зрителей, группа «Бонд с кнопкой», хор Florium, детский хор из города Выкса и струнный квартет. Больше сорока человек на сцене в пиковые моменты выступления.",
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/4804d115-392e-4536-88a4-5076b1ae6ffe/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/4483445/4804d115-392e-4536-88a4-5076b1ae6ffe/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "movieLength": 49
+    },
+    {
+      "id": 11634195,
+      "name": "В погоне за нефритом",
+      "year": 2026,
+      "genres": [
+        {
+          "name": "драма"
+        },
+        {
+          "name": "мелодрама"
+        }
+      ],
+      "poster": {
+        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/4716873/3e79771c-5b21-446a-8cc9-77defd20a80f/600x900",
+        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/4716873/3e79771c-5b21-446a-8cc9-77defd20a80f/300x450"
+      },
+      "rating": {
+        "kp": 0,
+        "imdb": 7.8,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      }
+    },
+    {
+      "id": 11613695,
+      "name": "Мульт в кино. Выпуск №193. Навстречу приключениям",
+      "year": 2026,
       "genres": [
         {
           "name": "мультфильм"
@@ -24,9 +100,7 @@
           "name": "приключения"
         }
       ],
-      "isSeries": false,
-      "movieLength": 45,
-      "name": "Мульт в кино. Выпуск №193. Навстречу приключениям",
+      "description": "Катя и Эф решают побывать на дне океана, Ми-ми-мишки открывают парк развлечений и находят книгу предсказаний, а Майя и Хозяин волшебной кухни устраивают кулинарный поединок.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/1bc576df-db3a-4e7b-b1d9-9c28b0d6ac1f/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/1bc576df-db3a-4e7b-b1d9-9c28b0d6ac1f/300x450"
@@ -39,34 +113,12 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "cartoon",
-      "typeNumber": 3,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Мульт в кино. Выпуск №193. Навстречу приключениям",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      "movieLength": 45
     },
     {
-      "id": "11535475",
-      "alternativeName": "The Silent Noise",
-      "countries": [
-        {
-          "name": "Филиппины"
-        }
-      ],
+      "id": 11535475,
+      "name": "Тихий шум",
+      "year": 2026,
       "genres": [
         {
           "name": "триллер"
@@ -78,8 +130,6 @@
           "name": "криминал"
         }
       ],
-      "isSeries": true,
-      "name": "Тихий шум",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/adcbd967-b6a9-47ab-ac5c-f2511793de05/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/adcbd967-b6a9-47ab-ac5c-f2511793de05/300x450"
@@ -91,49 +141,17 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2026,
-          "end": 2026
-        }
-      ],
-      "status": "FILMING",
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "The Silent Noise",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11534319",
-      "alternativeName": "Corazón de oro",
-      "countries": [
-        {
-          "name": "Мексика"
-        }
-      ],
+      "id": 11534319,
+      "name": "Золотое сердце",
+      "year": 2026,
       "genres": [
         {
           "name": "драма"
         }
       ],
-      "isSeries": true,
-      "name": "Золотое сердце",
       "rating": {
         "kp": 0,
         "imdb": 3.1,
@@ -141,41 +159,12 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2026
-        }
-      ],
-      "ticketsOnSale": false,
-      "totalSeriesLength": 60,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 13,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Corazón de oro",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11551151",
-      "alternativeName": "Leap Day",
-      "countries": [
-        {
-          "name": "Таиланд"
-        }
-      ],
+      "id": 11551151,
+      "name": "Високосный день",
+      "year": 2025,
       "genres": [
         {
           "name": "триллер"
@@ -187,8 +176,6 @@
           "name": "фэнтези"
         }
       ],
-      "isSeries": true,
-      "name": "Високосный день",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/a3035612-8a1c-4ba9-8de0-069b92f23ce1/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/a3035612-8a1c-4ba9-8de0-069b92f23ce1/300x450"
@@ -200,49 +187,17 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2025,
-          "end": 2025
-        }
-      ],
-      "seriesLength": 46,
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 213,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2025,
-      "names": [
-        {
-          "name": "Leap Day",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11550480",
-      "alternativeName": "Крошки",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
-      "genres": [
-        {
-          "name": "мультфильм"
-        }
-      ],
-      "isSeries": true,
+      "id": 11550480,
       "name": "Крошки",
+      "year": 2026,
+      "genres": [
+        {
+          "name": "мультфильм"
+        }
+      ],
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -250,99 +205,17 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2026,
-          "end": 2026
-        }
-      ],
-      "seriesLength": 3,
-      "ticketsOnSale": false,
-      "type": "animated-series",
-      "typeNumber": 5,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Крошки",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11550508",
-      "alternativeName": "Ледовая братва",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
-      "genres": [
-        {
-          "name": "мультфильм"
-        }
-      ],
-      "isSeries": true,
+      "id": 11550508,
       "name": "Ледовая братва",
-      "rating": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2026,
-          "end": 2026
-        }
-      ],
-      "seriesLength": 22,
-      "ticketsOnSale": false,
-      "type": "animated-series",
-      "typeNumber": 5,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
       "year": 2026,
-      "names": [
-        {
-          "name": "Ледовая братва",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
-    },
-    {
-      "id": "11550536",
-      "alternativeName": "Маугли и Акира. Новые приключения",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
       "genres": [
         {
           "name": "мультфильм"
         }
       ],
-      "isSeries": true,
-      "name": "Маугли и Акира. Новые приключения",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -350,41 +223,30 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
+      }
+    },
+    {
+      "id": 11550536,
+      "name": "Маугли и Акира. Новые приключения",
+      "year": 2026,
+      "genres": [
         {
-          "start": 2026,
-          "end": 2026
+          "name": "мультфильм"
         }
       ],
-      "ticketsOnSale": false,
-      "type": "animated-series",
-      "typeNumber": 5,
-      "votes": {
+      "rating": {
         "kp": 0,
         "imdb": 0,
         "tmdb": 0,
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Маугли и Акира. Новые приключения",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11540753",
-      "alternativeName": "Oneuldo maejinhaesseumnida",
-      "countries": [
-        {
-          "name": "Корея Южная"
-        }
-      ],
+      "id": 11540753,
+      "name": "Сегодня снова всё распродано",
+      "year": 2026,
       "genres": [
         {
           "name": "мелодрама"
@@ -393,8 +255,6 @@
           "name": "комедия"
         }
       ],
-      "isSeries": true,
-      "name": "Сегодня снова всё распродано",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -402,42 +262,12 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2026
-        }
-      ],
-      "seriesLength": 70,
-      "status": "POST_PRODUCTION",
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Oneuldo maejinhaesseumnida",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11556591",
-      "alternativeName": "Роковой мужчина",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
+      "id": 11556591,
+      "name": "Роковой мужчина",
+      "year": 2025,
       "genres": [
         {
           "name": "детектив"
@@ -446,8 +276,6 @@
           "name": "мелодрама"
         }
       ],
-      "isSeries": true,
-      "name": "Роковой мужчина",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -455,48 +283,17 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2025,
-          "end": 2025
-        }
-      ],
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2025,
-      "names": [
-        {
-          "name": "Роковой мужчина",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11556597",
-      "alternativeName": "Брошенная невеста",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
+      "id": 11556597,
+      "name": "Брошенная невеста",
+      "year": 2025,
       "genres": [
         {
           "name": "детектив"
         }
       ],
-      "isSeries": true,
-      "name": "Брошенная невеста",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -504,48 +301,17 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2025,
-          "end": 2025
-        }
-      ],
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 1,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2025,
-      "names": [
-        {
-          "name": "Брошенная невеста",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11556585",
-      "alternativeName": "Одиночки с прицепом",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
+      "id": 11556585,
+      "name": "Одиночки с прицепом",
+      "year": 2025,
       "genres": [
         {
           "name": "мелодрама"
         }
       ],
-      "isSeries": true,
-      "name": "Одиночки с прицепом",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10835644/cd0733f5-73da-4ac9-b2dc-613b609f7a10/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10835644/cd0733f5-73da-4ac9-b2dc-613b609f7a10/300x450"
@@ -557,41 +323,12 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2025,
-          "end": 2025
-        }
-      ],
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2025,
-      "names": [
-        {
-          "name": "Одиночки с прицепом",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11556598",
-      "alternativeName": "Стеклянный дом",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
+      "id": 11556598,
+      "name": "Стеклянный дом",
+      "year": 2025,
       "genres": [
         {
           "name": "детектив"
@@ -603,8 +340,6 @@
           "name": "мелодрама"
         }
       ],
-      "isSeries": true,
-      "name": "Стеклянный дом",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -612,41 +347,12 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2025,
-          "end": 2025
-        }
-      ],
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2025,
-      "names": [
-        {
-          "name": "Стеклянный дом",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11556700",
-      "alternativeName": "Maou no Musume wa Yasashisugiru!!",
-      "countries": [
-        {
-          "name": "Япония"
-        }
-      ],
+      "id": 11556700,
+      "name": "Дочь короля демонов слишком добрая!",
+      "year": 2026,
       "genres": [
         {
           "name": "аниме"
@@ -661,8 +367,6 @@
           "name": "комедия"
         }
       ],
-      "isSeries": true,
-      "name": "Дочь короля демонов слишком добрая!",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10809116/6ceec172-f1f2-487c-a40f-3b7953f6afd7/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10809116/6ceec172-f1f2-487c-a40f-3b7953f6afd7/300x450"
@@ -674,47 +378,12 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2026,
-          "end": 2026
-        }
-      ],
-      "seriesLength": 23,
-      "ticketsOnSale": false,
-      "type": "anime",
-      "typeNumber": 4,
-      "votes": {
-        "kp": 0,
-        "imdb": 142,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Maou no Musume wa Yasashisugiru!!",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11556654",
-      "ageRating": 16,
-      "alternativeName": "GotchuCatchu",
-      "backdrop": {
-        "url": "https://avatars.mds.yandex.net/get-ott/18164279/2a0000019ce1b832e15c22ab36563f967ea6/1344x756",
-        "previewUrl": "https://avatars.mds.yandex.net/get-ott/18164279/2a0000019ce1b832e15c22ab36563f967ea6/678x380"
-      },
-      "countries": [
-        {
-          "name": "Корея Южная"
-        }
-      ],
+      "id": 11556654,
+      "name": "Кис-Мяу",
+      "year": 2024,
       "genres": [
         {
           "name": "мультфильм"
@@ -726,8 +395,6 @@
           "name": "мелодрама"
         }
       ],
-      "isSeries": true,
-      "name": "Кис-Мяу",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-ott/18164279/2a0000019ce1b845db2e7e26f48de6356533/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-ott/18164279/2a0000019ce1b845db2e7e26f48de6356533/300x450"
@@ -739,46 +406,12 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2024
-        }
-      ],
-      "seriesLength": 6,
-      "ticketsOnSale": false,
-      "type": "animated-series",
-      "typeNumber": 5,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2024,
-      "names": [
-        {
-          "name": "GotchuCatchu",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11557235",
-      "ageRating": 16,
-      "alternativeName": "JungleBox",
-      "backdrop": {
-        "url": "https://avatars.mds.yandex.net/get-ott/17667793/2a0000019ce63686686bf18dc604e9c75fbf/1344x756",
-        "previewUrl": "https://avatars.mds.yandex.net/get-ott/17667793/2a0000019ce63686686bf18dc604e9c75fbf/678x380"
-      },
-      "countries": [
-        {
-          "name": "Корея Южная"
-        }
-      ],
+      "id": 11557235,
+      "name": "Пункт назначения: джунгли",
+      "year": 2021,
       "genres": [
         {
           "name": "мультфильм"
@@ -787,8 +420,6 @@
           "name": "комедия"
         }
       ],
-      "isSeries": true,
-      "name": "Пункт назначения: джунгли",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-ott/17735790/2a0000019ce636967f673df885467ae8c865/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-ott/17735790/2a0000019ce636967f673df885467ae8c865/300x450"
@@ -800,50 +431,18 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2021
-        }
-      ],
-      "seriesLength": 4,
-      "ticketsOnSale": false,
-      "type": "animated-series",
-      "typeNumber": 5,
-      "votes": {
-        "kp": 0,
-        "imdb": 10,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2021,
-      "names": [
-        {
-          "name": "JungleBox",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11557557",
-      "ageRating": 18,
-      "alternativeName": "Казаки на СВО",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
-      "description": "О трагических событиях Донбасса и роли казаков в непростом противостоянии в вооруженном конфликте, начиная с 2014 года и по сегодняшний день.",
+      "id": 11557557,
+      "name": "Казаки на СВО",
+      "year": 2024,
       "genres": [
         {
           "name": "документальный"
         }
       ],
-      "isSeries": true,
-      "name": "Казаки на СВО",
+      "description": "О трагических событиях Донбасса и роли казаков в непростом противостоянии в вооруженном конфликте, начиная с 2014 года и по сегодняшний день.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/ec0b2564-2f58-4cd7-8c13-fd39f3fb04d2/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/ec0b2564-2f58-4cd7-8c13-fd39f3fb04d2/300x450"
@@ -855,44 +454,12 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2024,
-          "end": 2024
-        }
-      ],
-      "seriesLength": 40,
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2024,
-      "names": [
-        {
-          "name": "Казаки на СВО",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11572513",
-      "ageRating": 18,
-      "alternativeName": "Пешка под королевой",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
-      "description": "Эпатажная шахматистка Ольга обещает переспать с тем, кто обыграет её на турнире. Но боксер Кирилл узнаёт в ней первую любовь и принимает вызов, хоть и ни разу не играл в шахматы.",
+      "id": 11572513,
+      "name": "Пешка под королевой",
+      "year": 2026,
       "genres": [
         {
           "name": "комедия"
@@ -901,8 +468,7 @@
           "name": "мелодрама"
         }
       ],
-      "isSeries": true,
-      "name": "Пешка под королевой",
+      "description": "Эпатажная шахматистка Ольга обещает переспать с тем, кто обыграет её на турнире. Но боксер Кирилл узнаёт в ней первую любовь и принимает вызов, хоть и ни разу не играл в шахматы.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/2a43564a-eaf6-4304-b06d-69309a6e2835/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/2a43564a-eaf6-4304-b06d-69309a6e2835/300x450"
@@ -914,50 +480,18 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2026,
-          "end": 2026
-        }
-      ],
-      "seriesLength": 2,
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Пешка под королевой",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11571107",
-      "alternativeName": "Secret Love with my Billionaire Revenge Partner",
-      "countries": [
-        {
-          "name": "США"
-        }
-      ],
-      "description": "Эвелин мстит жестоким родителям и сближается с влюблённым в неё богачом Фрэнсисом, который её спас.",
+      "id": 11571107,
+      "name": "Тайный союз с миллиардером",
+      "year": 2025,
       "genres": [
         {
           "name": "комедия"
         }
       ],
-      "isSeries": true,
-      "name": "Тайный союз с миллиардером",
+      "description": "Эвелин мстит жестоким родителям и сближается с влюблённым в неё богачом Фрэнсисом, который её спас.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/9fe8ebe6-2037-437a-94fc-054b1d75596d/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/9fe8ebe6-2037-437a-94fc-054b1d75596d/300x450"
@@ -969,49 +503,18 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2025,
-          "end": 2025
-        }
-      ],
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 20,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2025,
-      "names": [
-        {
-          "name": "Secret Love with my Billionaire Revenge Partner",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11571836",
-      "alternativeName": "Изобретение пространства",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
-      "description": "О трёх выдающихся театральных художниках России — Давиде Боровском, Эдуарде Кочергине и Сергее Бархине.",
+      "id": 11571836,
+      "name": "Изобретение пространства",
+      "year": 2019,
       "genres": [
         {
           "name": "документальный"
         }
       ],
-      "isSeries": true,
-      "name": "Изобретение пространства",
+      "description": "О трёх выдающихся театральных художниках России — Давиде Боровском, Эдуарде Кочергине и Сергее Бархине.",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -1019,51 +522,18 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2019,
-          "end": 2019
-        }
-      ],
-      "seriesLength": 44,
-      "ticketsOnSale": false,
-      "totalSeriesLength": 131,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2019,
-      "names": [
-        {
-          "name": "Изобретение пространства",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11571120",
-      "alternativeName": "Campaigning for Love",
-      "countries": [
-        {
-          "name": "США"
-        }
-      ],
-      "description": "Стажёрка из предвыборного штаба проводит ночь с таинственным мужчиной. Позже девушка обнаруживает, что её любовник — это её босс и кандидат в Сенат. Чтобы защитить карьеру обоих, она принимает новую личность, но ситуация становится ещё более запутанной.",
+      "id": 11571120,
+      "name": "Служебный роман: сенатор и стажёрка",
+      "year": 2025,
       "genres": [
         {
           "name": "мелодрама"
         }
       ],
-      "isSeries": true,
-      "name": "Служебный роман: сенатор и стажёрка",
+      "description": "Стажёрка из предвыборного штаба проводит ночь с таинственным мужчиной. Позже девушка обнаруживает, что её любовник — это её босс и кандидат в Сенат. Чтобы защитить карьеру обоих, она принимает новую личность, но ситуация становится ещё более запутанной.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/813a74d0-bf70-4739-a5e3-969f0b6abe20/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/813a74d0-bf70-4739-a5e3-969f0b6abe20/300x450"
@@ -1075,42 +545,12 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2025,
-          "end": 2025
-        }
-      ],
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 63,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2025,
-      "names": [
-        {
-          "name": "Campaigning for Love",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11570710",
-      "alternativeName": "Irresistible Love with My Brother in Law",
-      "countries": [
-        {
-          "name": "США"
-        }
-      ],
-      "description": "В разгар семейных драм беременная вдова Амелия, изо всех сил пытаясь обрести опору, находит утешение в объятиях Энтони, брата её умершего мужа.",
+      "id": 11570710,
+      "name": "Я влюбилась  в брата мужа",
+      "year": 2025,
       "genres": [
         {
           "name": "драма"
@@ -1119,8 +559,7 @@
           "name": "мелодрама"
         }
       ],
-      "isSeries": true,
-      "name": "Я влюбилась  в брата мужа",
+      "description": "В разгар семейных драм беременная вдова Амелия, изо всех сил пытаясь обрести опору, находит утешение в объятиях Энтони, брата её умершего мужа.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/a8f88824-f9e1-4e48-973f-ea3f10b015c8/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/a8f88824-f9e1-4e48-973f-ea3f10b015c8/300x450"
@@ -1132,48 +571,18 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2025
-        }
-      ],
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 93,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2025,
-      "names": [
-        {
-          "name": "Irresistible Love with My Brother in Law",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11570462",
-      "alternativeName": "Married a Gardener, Got a Prince",
-      "countries": [
-        {
-          "name": "США"
-        }
-      ],
-      "description": "Американская наследница Анна безутешна и опустошена, когда узнаёт об измене её жениха. Она снова обретает вкус к жизни благодаря «садовнику» Филиппу, который скрывает, что является принцем. Чтобы сохранить семейный бизнес, Анна соглашается выйти за него замуж, не подозревая, кто он на самом деле.",
+      "id": 11570462,
+      "name": "Вышла за садовника, оказался принцем!",
+      "year": 2025,
       "genres": [
         {
           "name": "мелодрама"
         }
       ],
-      "isSeries": true,
-      "name": "Вышла за садовника, оказался принцем!",
+      "description": "Американская наследница Анна безутешна и опустошена, когда узнаёт об измене её жениха. Она снова обретает вкус к жизни благодаря «садовнику» Филиппу, который скрывает, что является принцем. Чтобы сохранить семейный бизнес, Анна соглашается выйти за него замуж, не подозревая, кто он на самом деле.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/ceb4dd5b-9ba2-4db1-af9a-ee4ee2d3f42e/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/ceb4dd5b-9ba2-4db1-af9a-ee4ee2d3f42e/300x450"
@@ -1185,48 +594,17 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2025,
-          "end": 2025
-        }
-      ],
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 84,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2025,
-      "names": [
-        {
-          "name": "Married a Gardener, Got a Prince",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11570007",
-      "alternativeName": "Твой дом",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
+      "id": 11570007,
+      "name": "Твой дом",
+      "year": 2026,
       "genres": [
         {
           "name": "комедия"
         }
       ],
-      "isSeries": true,
-      "name": "Твой дом",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -1234,48 +612,17 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2026
-        }
-      ],
-      "seriesLength": 20,
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Твой дом",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11570010",
-      "alternativeName": "9 месяцев",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
+      "id": 11570010,
+      "name": "9 месяцев",
+      "year": 2026,
       "genres": [
         {
           "name": "ток-шоу"
         }
       ],
-      "isSeries": true,
-      "name": "9 месяцев",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -1283,50 +630,18 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2026
-        }
-      ],
-      "seriesLength": 50,
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "9 месяцев",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11569267",
-      "ageRating": 18,
-      "alternativeName": "Mira",
-      "countries": [
-        {
-          "name": "Турция"
-        }
-      ],
-      "description": "Десятилетний брак Миры внезапно рушится, когда муж неожиданно подает на развод. Пытаясь удержаться на плаву в мире, к которому она совершенно не готова, она отправляется в путешествие, чтобы заново построить свою жизнь, найти себя и понять, кто она такая.",
+      "id": 11569267,
+      "name": "Мира",
+      "year": 2026,
       "genres": [
         {
           "name": "драма"
         }
       ],
-      "isSeries": true,
-      "name": "Мира",
+      "description": "Десятилетний брак Миры внезапно рушится, когда муж неожиданно подает на развод. Пытаясь удержаться на плаву в мире, к которому она совершенно не готова, она отправляется в путешествие, чтобы заново построить свою жизнь, найти себя и понять, кто она такая.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10768063/efbdf580-1421-4e94-9d82-97946b452377/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10768063/efbdf580-1421-4e94-9d82-97946b452377/300x450"
@@ -1338,42 +653,12 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2026
-        }
-      ],
-      "seriesLength": 30,
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Mira",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11568136",
-      "alternativeName": "Тамаша",
-      "countries": [
-        {
-          "name": "Казахстан"
-        }
-      ],
-      "description": "История создания сатирического театра «Тамаша», ставшего первым телевизионным юмористическим шоу на казахском языке.",
+      "id": 11568136,
+      "name": "Тамаша",
+      "year": 2024,
       "genres": [
         {
           "name": "драма"
@@ -1382,8 +667,7 @@
           "name": "комедия"
         }
       ],
-      "isSeries": true,
-      "name": "Тамаша",
+      "description": "История создания сатирического театра «Тамаша», ставшего первым телевизионным юмористическим шоу на казахском языке.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/820e76aa-78d6-4f0d-9ae9-b4b58bea5e54/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/820e76aa-78d6-4f0d-9ae9-b4b58bea5e54/300x450"
@@ -1395,51 +679,18 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2024,
-          "end": 2024
-        }
-      ],
-      "seriesLength": 50,
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2024,
-      "names": [
-        {
-          "name": "Тамаша",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11569083",
-      "ageRating": 16,
-      "alternativeName": "Revenge of XXL Wife",
-      "countries": [
-        {
-          "name": "США"
-        }
-      ],
-      "description": "Домохозяйка Мэдди раньше была очень полной женщиной. Она становится стройной красоткой и решает при помощи друга детства, миллиардера Феликса, отомстить бывшему мужу, бросившего её ради любовницы.",
+      "id": 11569083,
+      "name": "Месть размера XXL",
+      "year": 2024,
       "genres": [
         {
           "name": "драма"
         }
       ],
-      "isSeries": true,
-      "name": "Месть размера XXL",
+      "description": "Домохозяйка Мэдди раньше была очень полной женщиной. Она становится стройной красоткой и решает при помощи друга детства, миллиардера Феликса, отомстить бывшему мужу, бросившего её ради любовницы.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/a2c9cc1b-f77d-4ef5-8d7e-c1b37dd4c6d9/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/a2c9cc1b-f77d-4ef5-8d7e-c1b37dd4c6d9/300x450"
@@ -1451,50 +702,18 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "releaseYears": [
-        {
-          "start": 2024,
-          "end": 2024
-        }
-      ],
-      "ticketsOnSale": false,
-      "type": "tv-series",
-      "typeNumber": 2,
-      "votes": {
-        "kp": 0,
-        "imdb": 116,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2024,
-      "names": [
-        {
-          "name": "Revenge of XXL Wife",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11538506",
-      "alternativeName": "Баба Яга и Лесная Царевна",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
-      "description": "Узнав, что Царевич Елисей ищет невесту, коварная колдунья Ядвига решает во что бы то ни стало выдать за него свою неуклюжую дочь Авдотью. Породнившись с царской семьей, она мечтает править людским миром. Но на пути к её цели стоит падчерица — добрая и прекрасная Алёнушка. Чтобы избавиться от соперницы, Ядвига отправляет девушку в лес на верную погибель. Однако Алёнушка встречает доброго Лешего — древнего духа леса, который спасает её и помогает попасть на царский бал. Там Алёнушка покоряет сердце царевича. Но злая Ядвига, оказавшаяся самой настоящей Бабой Ягой, хитростью заманивает падчерицу в заколдованную Гиблую рощу, откуда нет возврата. Спасти Алёнушку сможет лишь тот, кто полюбит её всем сердцем — чисто, искренне и навсегда.",
+      "id": 11538506,
+      "name": "Баба Яга и Лесная Царевна",
+      "year": 2026,
       "genres": [
         {
           "name": "семейный"
         }
       ],
-      "isSeries": false,
-      "movieLength": 85,
-      "name": "Баба Яга и Лесная Царевна",
+      "description": "Узнав, что Царевич Елисей ищет невесту, коварная колдунья Ядвига решает во что бы то ни стало выдать за него свою неуклюжую дочь Авдотью. Породнившись с царской семьей, она мечтает править людским миром. Но на пути к её цели стоит падчерица — добрая и прекрасная Алёнушка. Чтобы избавиться от соперницы, Ядвига отправляет девушку в лес на верную погибель. Однако Алёнушка встречает доброго Лешего — древнего духа леса, который спасает её и помогает попасть на царский бал. Там Алёнушка покоряет сердце царевича. Но злая Ядвига, оказавшаяся самой настоящей Бабой Ягой, хитростью заманивает падчерицу в заколдованную Гиблую рощу, откуда нет возврата. Спасти Алёнушку сможет лишь тот, кто полюбит её всем сердцем — чисто, искренне и навсегда.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703859/32b0fdb1-a811-41ec-ac6e-dc1c396a4287/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10703859/32b0fdb1-a811-41ec-ac6e-dc1c396a4287/300x450"
@@ -1507,35 +726,12 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Баба Яга и Лесная Царевна",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      "movieLength": 85
     },
     {
-      "id": "11538497",
-      "alternativeName": "Спящая красавица",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
-      "description": "Царевну Любаву, скрывающую от мира свою тайну с помощью волшебного гребня матери, отравляет коварная Шамаханская царица, вступившая в сговор с заточенной в зеркале колдуньей. Пока тело девушки погружается в вечный сон, ее душа оказывается в мире грёз. Спасти ее может лишь изобретатель Иван, который ради этого отправляется в опасное путешествие на окраину царства.",
+      "id": 11538497,
+      "name": "Спящая красавица",
+      "year": 2026,
       "genres": [
         {
           "name": "семейный"
@@ -1547,8 +743,7 @@
           "name": "приключения"
         }
       ],
-      "isSeries": false,
-      "name": "Спящая красавица",
+      "description": "Царевну Любаву, скрывающую от мира свою тайну с помощью волшебного гребня матери, отравляет коварная Шамаханская царица, вступившая в сговор с заточенной в зеркале колдуньей. Пока тело девушки погружается в вечный сон, ее душа оказывается в мире грёз. Спасти ее может лишь изобретатель Иван, который ради этого отправляется в опасное путешествие на окраину царства.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10953618/51ab608a-288c-4a27-9d25-c1a107878164/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10953618/51ab608a-288c-4a27-9d25-c1a107878164/300x450"
@@ -1560,35 +755,12 @@
         "filmCritics": 0,
         "russianFilmCritics": 0,
         "await": 0
-      },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Спящая красавица",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      }
     },
     {
-      "id": "11538494",
-      "alternativeName": "Yong bu shi lian de ai",
-      "countries": [
-        {
-          "name": "Китай"
-        }
-      ],
+      "id": 11538494,
+      "name": "Вечная любовь",
+      "year": 2025,
       "genres": [
         {
           "name": "драма"
@@ -1597,9 +769,6 @@
           "name": "мелодрама"
         }
       ],
-      "isSeries": false,
-      "movieLength": 100,
-      "name": "Вечная любовь",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10768063/8003a927-0f96-470b-b9e1-6a1d91c96c7b/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10768063/8003a927-0f96-470b-b9e1-6a1d91c96c7b/300x450"
@@ -1612,40 +781,12 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2025,
-      "names": [
-        {
-          "name": "Вечная любовь",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        },
-        {
-          "name": "Yong bu shi lian de ai",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      "movieLength": 100
     },
     {
-      "id": "11538491",
-      "alternativeName": "Al Selm w Al Thoban: Leab Eyal",
-      "countries": [
-        {
-          "name": "Египет"
-        }
-      ],
-      "description": "Ахмед и Малак знакомятся и вскоре влюбляются. Они пытаются произвести впечатление друг на друга, раскрываясь с лучшей стороны, и верят, что их отношения выдержат любые испытания и продлятся всю жизнь.",
+      "id": 11538491,
+      "name": "Змеи и лестницы: Детские забавы",
+      "year": 2025,
       "genres": [
         {
           "name": "драма"
@@ -1657,9 +798,7 @@
           "name": "комедия"
         }
       ],
-      "isSeries": false,
-      "movieLength": 122,
-      "name": "Змеи и лестницы: Детские забавы",
+      "description": "Ахмед и Малак знакомятся и вскоре влюбляются. Они пытаются произвести впечатление друг на друга, раскрываясь с лучшей стороны, и верят, что их отношения выдержат любые испытания и продлятся всю жизнь.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/e2de0892-5980-4766-b814-d09acd740bd0/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/e2de0892-5980-4766-b814-d09acd740bd0/300x450"
@@ -1672,41 +811,12 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 136,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2025,
-      "names": [
-        {
-          "name": "Змеи и лестницы: Детские забавы",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        },
-        {
-          "name": "Al Selm w Al Thoban: Leab Eyal",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      "movieLength": 122
     },
     {
-      "id": "11537920",
-      "ageRating": 12,
-      "alternativeName": "Притворись моей бывшей",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
-      "description": "Успешный стоматолог Антон, привыкший к лёгким победам, влюбляется в принципиальную Леру — и в панике сочиняет историю о бывшей жене. Теперь его коллеге Насте предстоит сыграть роль «экс-партнёрши», а её дочери Томе — с удивлением наблюдать, как взрослые запутываются в собственной лжи.",
+      "id": 11537920,
+      "name": "Притворись моей бывшей",
+      "year": 2026,
       "genres": [
         {
           "name": "комедия"
@@ -1715,9 +825,7 @@
           "name": "семейный"
         }
       ],
-      "isSeries": false,
-      "movieLength": 83,
-      "name": "Притворись моей бывшей",
+      "description": "Успешный стоматолог Антон, привыкший к лёгким победам, влюбляется в принципиальную Леру — и в панике сочиняет историю о бывшей жене. Теперь его коллеге Насте предстоит сыграть роль «экс-партнёрши», а её дочери Томе — с удивлением наблюдать, как взрослые запутываются в собственной лжи.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10900341/6854b509-8dfa-4109-9baf-192520e555af/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10900341/6854b509-8dfa-4109-9baf-192520e555af/300x450"
@@ -1730,35 +838,38 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Притворись моей бывшей",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      "movieLength": 83
     },
     {
-      "id": "11537368",
-      "alternativeName": "Стас и Глеб",
-      "countries": [
+      "id": 11537368,
+      "name": "Стас и Глеб",
+      "year": 2017,
+      "genres": [
         {
-          "name": "Казахстан"
+          "name": "документальный"
+        },
+        {
+          "name": "короткометражка"
+        },
+        {
+          "name": "биография"
         }
       ],
       "description": "Станислав и Глеб — братья-близнецы из Самары. Несколько лет назад они были вынуждены переехать в другую страну и начать жизнь с нуля. Сейчас они успешно занимаются предпринимательской деятельностью, а один из их проектов связан с образовательными курсами через интернет.",
+      "rating": {
+        "kp": 0,
+        "imdb": 0,
+        "tmdb": 0,
+        "filmCritics": 0,
+        "russianFilmCritics": 0,
+        "await": 0
+      },
+      "movieLength": 14
+    },
+    {
+      "id": 11535949,
+      "name": "Хочу в балет",
+      "year": 2017,
       "genres": [
         {
           "name": "документальный"
@@ -1768,62 +879,9 @@
         },
         {
           "name": "биография"
-        }
-      ],
-      "isSeries": false,
-      "movieLength": 14,
-      "name": "Стас и Глеб",
-      "rating": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2017,
-      "names": [
-        {
-          "name": "Стас и Глеб",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
-    },
-    {
-      "id": "11535949",
-      "alternativeName": "Хочу в балет",
-      "countries": [
-        {
-          "name": "Казахстан"
         }
       ],
       "description": "Каждый год Казахская национальная академия хореографии ищет маленьких талантов по всей стране. И однажды сбывается мечта восьмилетней Наркыз из посёлка Шиели Кызылординской области: она проходит отбор и получает билет в балетную жизнь.",
-      "genres": [
-        {
-          "name": "документальный"
-        },
-        {
-          "name": "короткометражка"
-        },
-        {
-          "name": "биография"
-        }
-      ],
-      "isSeries": false,
-      "movieLength": 20,
-      "name": "Хочу в балет",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -1832,35 +890,12 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2017,
-      "names": [
-        {
-          "name": "Хочу в балет",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      "movieLength": 20
     },
     {
-      "id": "11536568",
-      "alternativeName": "Освобожденная",
-      "countries": [
-        {
-          "name": "Казахстан"
-        }
-      ],
-      "description": "После 9 лет в колонии строгого режима Валентина Александрова выходит по УДО. Она возвращается в родной Уральск, чтобы увидеть своих детей, и особенно 12-летнюю дочь Машу, во встрече с которой ранее отказывало руководство детского дома.",
+      "id": 11536568,
+      "name": "Освобожденная",
+      "year": 2016,
       "genres": [
         {
           "name": "документальный"
@@ -1875,9 +910,7 @@
           "name": "криминал"
         }
       ],
-      "isSeries": false,
-      "movieLength": 26,
-      "name": "Освобожденная",
+      "description": "После 9 лет в колонии строгого режима Валентина Александрова выходит по УДО. Она возвращается в родной Уральск, чтобы увидеть своих детей, и особенно 12-летнюю дочь Машу, во встрече с которой ранее отказывало руководство детского дома.",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -1886,35 +919,12 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2016,
-      "names": [
-        {
-          "name": "Освобожденная",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      "movieLength": 26
     },
     {
-      "id": "11536140",
-      "alternativeName": "Просто Сабуров",
-      "countries": [
-        {
-          "name": "Казахстан"
-        }
-      ],
-      "description": "О жизни казахстанского комика и участника телешоу Stand Up Нурлана Сабурова в перерывах от выступлений и гастролей и в поездках на родину и за её пределы.",
+      "id": 11536140,
+      "name": "Просто Сабуров",
+      "year": 2018,
       "genres": [
         {
           "name": "документальный"
@@ -1926,9 +936,7 @@
           "name": "биография"
         }
       ],
-      "isSeries": false,
-      "movieLength": 23,
-      "name": "Просто Сабуров",
+      "description": "О жизни казахстанского комика и участника телешоу Stand Up Нурлана Сабурова в перерывах от выступлений и гастролей и в поездках на родину и за её пределы.",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -1937,42 +945,17 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2018,
-      "names": [
-        {
-          "name": "Просто Сабуров",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      "movieLength": 23
     },
     {
-      "id": "11550552",
-      "alternativeName": "Хранитель времени. Чагин",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
+      "id": 11550552,
+      "name": "Хранитель времени. Чагин",
+      "year": 2024,
       "genres": [
         {
           "name": "документальный"
         }
       ],
-      "isSeries": false,
-      "movieLength": 57,
-      "name": "Хранитель времени. Чагин",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -1981,42 +964,17 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2024,
-      "names": [
-        {
-          "name": "Хранитель времени. Чагин",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      "movieLength": 57
     },
     {
-      "id": "11550553",
-      "alternativeName": "Молочай",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
+      "id": 11550553,
+      "name": "Молочай",
+      "year": 2024,
       "genres": [
         {
           "name": "короткометражка"
         }
       ],
-      "isSeries": false,
-      "movieLength": 11,
-      "name": "Молочай",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -2025,35 +983,12 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2024,
-      "names": [
-        {
-          "name": "Молочай",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      "movieLength": 11
     },
     {
-      "id": "11550687",
-      "alternativeName": "Всколыхнулась Русь сермяжная и грудью стала за святое дело",
-      "countries": [
-        {
-          "name": "Российская империя"
-        }
-      ],
-      "description": "Во время Первой мировой войны жених девушки уходит на фронт и пропадает. Чтобы найти возлюбленного, она отправляется за ним и становится разведчицей.",
+      "id": 11550687,
+      "name": "Всколыхнулась Русь сермяжная и грудью стала за святое дело",
+      "year": 1915,
       "genres": [
         {
           "name": "короткометражка"
@@ -2062,9 +997,7 @@
           "name": "военный"
         }
       ],
-      "isSeries": false,
-      "movieLength": 32,
-      "name": "Всколыхнулась Русь сермяжная и грудью стала за святое дело",
+      "description": "Во время Первой мировой войны жених девушки уходит на фронт и пропадает. Чтобы найти возлюбленного, она отправляется за ним и становится разведчицей.",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -2073,43 +1006,18 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 1,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 1915,
-      "names": [
-        {
-          "name": "Всколыхнулась Русь сермяжная и грудью стала за святое дело",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      "movieLength": 32
     },
     {
-      "id": "11539646",
-      "alternativeName": "Hodonaku, Owakare desu",
-      "countries": [
-        {
-          "name": "Япония"
-        }
-      ],
-      "description": "Девушка начинает работать в похоронном бюро.",
+      "id": 11539646,
+      "name": "Время прощаться",
+      "year": 2026,
       "genres": [
         {
           "name": "драма"
         }
       ],
-      "isSeries": false,
-      "movieLength": 124,
-      "name": "Время прощаться",
+      "description": "Девушка начинает работать в похоронном бюро.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/e2bcc45a-a206-4ba1-9f20-c23304a206ec/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/e2bcc45a-a206-4ba1-9f20-c23304a206ec/300x450"
@@ -2122,52 +1030,21 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 10,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Время прощаться",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        },
-        {
-          "name": "Hodonaku, Owakare desu",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      "movieLength": 124
     },
     {
-      "id": "11540158",
-      "ageRating": 18,
-      "alternativeName": "Что скрывает «Горничная»",
-      "countries": [
+      "id": 11540158,
+      "name": "Что скрывает «Горничная»",
+      "year": 2026,
+      "genres": [
         {
-          "name": "Россия"
+          "name": "короткометражка"
+        },
+        {
+          "name": "документальный"
         }
       ],
       "description": "Как устроен триллер про загадочное поместье и причуды богатых американцев? Видеообзор, в котором редакция Кинопоиска отвечает на вопросы, возникающие после просмотра: как создатели переносят формулу викторианского хоррора в современность, чем сюжетная конструкция похожа на «Исчезнувшую» Финчера, какими приёмами режиссёр цитирует Альфреда Хичкока и в чём причина кассового успеха фильма во всём мире.",
-      "genres": [
-        {
-          "name": "короткометражка"
-        },
-        {
-          "name": "документальный"
-        }
-      ],
-      "isSeries": false,
-      "movieLength": 10,
-      "name": "Что скрывает «Горничная»",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -2176,45 +1053,20 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Что скрывает «Горничная»",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      "movieLength": 10
     },
     {
-      "id": "11548659",
-      "alternativeName": "Portret odnogo hudozhnika",
-      "countries": [
-        {
-          "name": "Азербайджан"
-        }
-      ],
-      "genres": [
-        {
-          "name": "короткометражка"
-        },
-        {
-          "name": "документальный"
-        }
-      ],
-      "isSeries": false,
-      "movieLength": 28,
+      "id": 11548659,
       "name": "Портрет одного художника",
+      "year": 2021,
+      "genres": [
+        {
+          "name": "короткометражка"
+        },
+        {
+          "name": "документальный"
+        }
+      ],
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -2223,48 +1075,18 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2021,
-      "names": [
-        {
-          "name": "Портрет одного художника",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        },
-        {
-          "name": "Portret odnogo hudozhnika",
-          "language": null,
-          "type": "Original title on kinopoisk"
-        }
-      ]
+      "movieLength": 28
     },
     {
-      "id": "11557121",
-      "alternativeName": "Жанибек и Берик",
-      "countries": [
+      "id": 11557121,
+      "name": "Жанибек и Берик",
+      "year": 2024,
+      "genres": [
         {
-          "name": "Казахстан"
+          "name": "документальный"
         }
       ],
       "description": "История профессионального боксера из Казахстана, Жанибека Алимханулы, и его менеджера Берик Султана. Фильм рассказывает о трудном пути в боксе, ведущем к завоеванию двух чемпионских поясов.\nЭтот фильм рассказывает о боксе, подготовке к бою и о том, что происходит за кулисами.",
-      "genres": [
-        {
-          "name": "документальный"
-        }
-      ],
-      "isSeries": false,
-      "movieLength": 62,
-      "name": "Жанибек и Берик",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -2273,43 +1095,18 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2024,
-      "names": [
-        {
-          "name": "Жанибек и Берик",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      "movieLength": 62
     },
     {
-      "id": "11557122",
-      "alternativeName": "Хрустальный человек",
-      "countries": [
+      "id": 11557122,
+      "name": "Хрустальный человек",
+      "year": 2024,
+      "genres": [
         {
-          "name": "Казахстан"
+          "name": "документальный"
         }
       ],
       "description": "Вдохновляющая история о силе духа людей с особыми потребностями. Она доказывает, что для полноценной жизни им не нужен отдельный мир, а лишь равные возможности и поддержка. Несмотря на все жизненные испытания, Асия доказывает, что ограничения — это всего лишь предрассудки. Ее пример и истории других участников с с ограниченными возможностями здоровья показывают, что каждый из нас способен преодолеть любые трудности.",
-      "genres": [
-        {
-          "name": "документальный"
-        }
-      ],
-      "isSeries": false,
-      "movieLength": 54,
-      "name": "Хрустальный человек",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -2318,43 +1115,18 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2024,
-      "names": [
-        {
-          "name": "Хрустальный человек",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      "movieLength": 54
     },
     {
-      "id": "11557123",
-      "alternativeName": "Алматы? ОК жить со смогом?",
-      "countries": [
+      "id": 11557123,
+      "name": "Алматы? ОК жить со смогом?",
+      "year": 2024,
+      "genres": [
         {
-          "name": "Казахстан"
+          "name": "документальный"
         }
       ],
       "description": "Смог стал привычной реальностью для жителей Алматы. С наступлением зимы город погружается в серые пейзажи, которые весной кажутся уже далекими и забытыми. \nФильм посвящён исследованию причин загрязнения воздуха в Алматы. Мы поговорили с экспертами, активистами и жителями города, чтобы понять, как смог влияет на наше здоровье и жизнь, а главное — что с этим делать.",
-      "genres": [
-        {
-          "name": "документальный"
-        }
-      ],
-      "isSeries": false,
-      "movieLength": 60,
-      "name": "Алматы? ОК жить со смогом?",
       "rating": {
         "kp": 0,
         "imdb": 0,
@@ -2363,36 +1135,12 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2024,
-      "names": [
-        {
-          "name": "Алматы? ОК жить со смогом?",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      "movieLength": 60
     },
     {
-      "id": "11557337",
-      "ageRating": 12,
-      "alternativeName": "Мозаика Ленинграда",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
-      "description": "Рассказ о подвиге и труде мастеров-художников в период блокады Ленинграда, в частности, художника-мозаичиста Владимира Фролова.",
+      "id": 11557337,
+      "name": "Мозаика Ленинграда",
+      "year": 2025,
       "genres": [
         {
           "name": "документальный"
@@ -2407,9 +1155,7 @@
           "name": "история"
         }
       ],
-      "isSeries": false,
-      "movieLength": 75,
-      "name": "Мозаика Ленинграда",
+      "description": "Рассказ о подвиге и труде мастеров-художников в период блокады Ленинграда, в частности, художника-мозаичиста Владимира Фролова.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10768063/f3358c89-826c-4351-923a-6f5c9518ce67/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10768063/f3358c89-826c-4351-923a-6f5c9518ce67/300x450"
@@ -2422,36 +1168,12 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2025,
-      "names": [
-        {
-          "name": "Мозаика Ленинграда",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      "movieLength": 75
     },
     {
-      "id": "11557231",
-      "ageRating": 16,
-      "alternativeName": "Рядом с тобой",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
-      "description": "Девушка пишет заявление в полицию, чтобы те нашли ее сталкера и посадили его в тюрьму. Но когда по дороге из участка она узнает, что теперь ее преследуют не только в сети, но и в реальной жизни, ей придется сделать выбор: ждать пока полиция начнет действовать или же отыскать его и наказать самостоятельно.",
+      "id": 11557231,
+      "name": "Рядом с тобой",
+      "year": 2025,
       "genres": [
         {
           "name": "короткометражка"
@@ -2463,9 +1185,7 @@
           "name": "драма"
         }
       ],
-      "isSeries": false,
-      "movieLength": 17,
-      "name": "Рядом с тобой",
+      "description": "Девушка пишет заявление в полицию, чтобы те нашли ее сталкера и посадили его в тюрьму. Но когда по дороге из участка она узнает, что теперь ее преследуют не только в сети, но и в реальной жизни, ей придется сделать выбор: ждать пока полиция начнет действовать или же отыскать его и наказать самостоятельно.",
       "poster": {
         "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/9c7ecef4-da8c-4217-9ba0-4fcf99a0a444/600x900",
         "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/10671298/9c7ecef4-da8c-4217-9ba0-4fcf99a0a444/300x450"
@@ -2478,184 +1198,11 @@
         "russianFilmCritics": 0,
         "await": 0
       },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2025,
-      "names": [
-        {
-          "name": "Рядом с тобой",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
-    },
-    {
-      "id": "11557789",
-      "ageRating": 12,
-      "alternativeName": "Бесконечный день Владимира Каляева",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
-      "description": "Размеренная жизнь физика Владимира Каляева резко изменилась после крушения в декабре 2024 года танкеров с мазутом в Керченском проливе. Наскоро покинув лабораторию Сколтеха, он отправился волонтёром в Анапу — тестировать экспериментальные методики по ликвидации мазута. Вокруг Владимира, с его энергией и энтузиазмом, быстро собралась группа волонтёров. Экспериментальный проект назвали «КБ Каляева» — «Конструкторское бюро Каляева». После новогодних праздников Сколтех оформил учёному командировку, и теперь Владимир совершенствует технологию очистки в условиях штормов, ветров, загрязнённого побережья и токсичных нефтепродуктов.",
-      "genres": [
-        {
-          "name": "документальный"
-        },
-        {
-          "name": "короткометражка"
-        }
-      ],
-      "isSeries": false,
-      "movieLength": 43,
-      "name": "Бесконечный день Владимира Каляева",
-      "poster": {
-        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/ba91aa9d-f1de-4953-a64d-21011f82db33/600x900",
-        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/ba91aa9d-f1de-4953-a64d-21011f82db33/300x450"
-      },
-      "rating": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Бесконечный день Владимира Каляева",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
-    },
-    {
-      "id": "11557556",
-      "alternativeName": "Эхо в проводах",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
-      "description": "Когда в пустой квартире оживает старый дисковый телефон, Саша получает невозможный шанс — поговорить с мамой, которую потерял много лет назад, и наконец сказать то, что не успел.",
-      "genres": [
-        {
-          "name": "короткометражка"
-        },
-        {
-          "name": "драма"
-        }
-      ],
-      "isSeries": false,
-      "movieLength": 15,
-      "name": "Эхо в проводах",
-      "poster": {
-        "url": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/ab997551-047d-4f81-93bd-7ff0a984f571/600x900",
-        "previewUrl": "https://avatars.mds.yandex.net/get-kinopoisk-image/4486362/ab997551-047d-4f81-93bd-7ff0a984f571/300x450"
-      },
-      "rating": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "status": "COMPLETED",
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2026,
-      "names": [
-        {
-          "name": "Эхо в проводах",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
-    },
-    {
-      "id": "11557799",
-      "alternativeName": "Вверх за мечтой",
-      "countries": [
-        {
-          "name": "Россия"
-        }
-      ],
-      "genres": [
-        {
-          "name": "короткометражка"
-        },
-        {
-          "name": "мелодрама"
-        },
-        {
-          "name": "комедия"
-        }
-      ],
-      "isSeries": false,
-      "name": "Вверх за мечтой",
-      "rating": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "ticketsOnSale": false,
-      "type": "movie",
-      "typeNumber": 1,
-      "votes": {
-        "kp": 0,
-        "imdb": 0,
-        "tmdb": 0,
-        "filmCritics": 0,
-        "russianFilmCritics": 0,
-        "await": 0
-      },
-      "year": 2025,
-      "names": [
-        {
-          "name": "Вверх за мечтой",
-          "language": "RU",
-          "type": "Russian title on kinopoisk"
-        }
-      ]
+      "movieLength": 17
     }
   ],
   "limit": 50,
-  "next": "eyJ2IjpbbnVsbF0sImlkIjoiNjliNWRjMTQyNjRmYWU0MWNhYjBjZDBkIn0=",
+  "next": "eyJ2IjpbbnVsbF0sImlkIjoiNjliNWRjMTQyNjRmYWU0MWNhYjBjZDE0In0=",
   "prev": null,
   "hasNext": true,
   "hasPrev": false

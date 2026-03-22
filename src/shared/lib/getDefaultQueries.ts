@@ -1,6 +1,6 @@
 const DEFAULT_PER_PAGE = "50";
 
-export const getDefaultQueries = (params?: Record<string, string | string[]>) => ({
-  limit: params?.page ?? DEFAULT_PER_PAGE,
+export const getDefaultQueries = () => ({
+  limit: DEFAULT_PER_PAGE,
   notNullFields: ["name", "year", "genres.name"],
 });

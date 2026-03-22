@@ -1,4 +1,9 @@
-body,
-#root {
+body {
+  display: flex;
+  position: relative;
   max-height: 100vh;
+}
+
+#root {
+  width: 100%;
 }

@@ -1,0 +1,25 @@
+.fav-button {
+  position: absolute;
+  top: 5px;
+  left: auto;
+  right: 5px;
+  border-radius: 50%;
+  opacity: 0.8;
+  width: fit-content;
+}
+
+.missed-button {
+  background-color: white;
+}
+
+.missed-button_hovered {
+  background-color: rgb(203, 190, 190);
+}
+
+.chosen-button {
+  background-color: rgb(172, 86, 115);
+}
+
+.chosen-button_hovered {
+  background-color: rgb(121, 51, 74);
+}
