@@ -11,8 +11,7 @@ sample({
   filter: ({ cursor }) => Boolean(cursor),
   fn: ({ cursor }, filters) => ({
     filters,
-    cursor,
-    page: cursor ? undefined : 1,
+    ...(cursor ? { cursor } : { page: 1 }),
   }),
   target: getMoviesFx,
 });

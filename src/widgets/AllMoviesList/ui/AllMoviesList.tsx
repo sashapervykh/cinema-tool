@@ -26,8 +26,9 @@ export function AllMoviesList() {
   return (
     <Box padding="l" style={{ flex: 1, overflowY: "auto" }}>
       <MoviesList movies={movies} />
-      <div ref={loaderRef} style={{ height: "100px" }}></div>
-      {isLoading && <Spinner size="xl" />}
+      <div ref={loaderRef} style={{ height: "100px" }}>
+        {isLoading && <Spinner size="xl" />}
+      </div>
     </Box>
   );
 }

@@ -14,7 +14,6 @@ export const updateUrlFx = createEffect(
       filters.genres.forEach((g) => params.append("genres.name", g));
     }
     params.set("year", `${filters.yearRange[0]}-${filters.yearRange[1]}`);
-    params.set("year", `${filters.yearRange[0]}-${filters.yearRange[1]}`);
     params.set("rating.kp", `${filters.kinopoiskRange[0]}-${filters.kinopoiskRange[1]}`);
     params.set("rating.imdb", `${filters.imdbRange[0]}-${filters.imdbRange[1]}`);
 
