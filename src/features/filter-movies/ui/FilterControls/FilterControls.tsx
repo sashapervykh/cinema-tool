@@ -2,6 +2,7 @@ import { Button, ButtonGroup, Flex, Spacing } from "@vkontakte/vkui";
 import { resetFilters } from "../../model/stores/filters.store";
 import { useUnit } from "effector-react";
 import { useNavigate } from "react-router";
+import { applyFilters } from "../../model/stores/filters.apply";
 
 export function FilterControls() {
   const navigate = useNavigate();
