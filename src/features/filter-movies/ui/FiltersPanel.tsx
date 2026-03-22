@@ -11,6 +11,7 @@ import {
   setYearRange,
 } from "../model/filters.store";
 import { GenresSelect } from "./GenresSelect/GenresSelect";
+import { FilterControls } from "./FilterControls/FilterControls";
 
 export function FiltersPanel() {
   const [kinopoisk, imdb, year, setKinopoisk, setImdb, setYear] = useUnit([
@@ -24,6 +25,7 @@ export function FiltersPanel() {
 
   return (
     <Panel>
+      <FilterControls />
       <Box padding="xl">
         <RangeSlider
           {...FILTERS_DATA.KINOPOISK_RANGE}
