@@ -1,73 +1,100 @@
-# React + TypeScript + Vite
+# KinoVed 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Приложение для поиска и просмотра информации о фильмах.
 
-Currently, two official plugins are available:
+## Возможности
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Бесконечный скролл списка фильмов
+- Фильтрация по жанру, рейтингу и году выпуска
+- Детальная страница фильма
+- Список избранных фильмов с сохранением между сессиями
+- Режим сравнения двух фильмов
 
-## React Compiler
+## Стек технологий
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** + **TypeScript**
+- **Vite** — сборка
+- **Effector** — управление состоянием
+- **VKUI** — библиотека компонентов
+- **React Router** — маршрутизация
+- **Zod** — валидация данных API
+- **effector-storage** — сохранение избранного в localStorage
+- **FSD** — архитектура проекта
 
-## Expanding the ESLint configuration
+## Требования
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Node.js 18+
+- npm 9+
 
-```js
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
+## Установка и запуск
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 1. Клонировать репозиторий
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
+```bash
+git clone https://github.com/sashapervykh/cinema-tool
+cd cinema-tool
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Установить зависимости
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
-
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs["recommended-typescript"],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
+```bash
+npm install
 ```
+
+### 3. Настроить переменные окружения
+
+Скопировать `.env.default` в `.env`:
+
+```bash
+cp .env.default .env
+```
+
+Заполнить переменные в `.env`:
+
+```env
+VITE_API_URL=https://api.poiskkino.dev
+VITE_API_TOKEN=your_token_here
+VITE_API_MOCKED=false
+```
+
+Получить токен можно на [poiskkino.dev](https://poiskkino.dev/).
+
+### 4. Запустить приложение
+
+```bash
+npm run dev
+```
+
+Приложение будет доступно по адресу `http://localhost:5173`.
+
+## Запуск с моками
+
+Для запуска без реального API токена используйте режим моков:
+
+```env
+VITE_API_MOCKED=true
+```
+
+В этом режиме приложение использует заранее сохранённые данные из `src/shared/mocks/`.
+
+## Сборка для продакшена
+
+```bash
+npm run build
+```
+
+Собранные файлы появятся в папке `dist/`.
+
+## Линтинг
+
+```bash
+npm run lint
+```
+
+## Переменные окружения
+
+| Переменная        | Описание                               | Пример                      |
+| ----------------- | -------------------------------------- | --------------------------- |
+| `VITE_API_URL`    | Базовый URL API                        | `https://api.poiskkino.dev` |
+| `VITE_API_TOKEN`  | Токен для доступа к API                | `ABC123...`                 |
+| `VITE_API_MOCKED` | Использовать моки вместо реального API | `true` / `false`            |

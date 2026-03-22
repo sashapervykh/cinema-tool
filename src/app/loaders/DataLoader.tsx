@@ -13,5 +13,5 @@ export function DataLoader() {
     getGenres();
   }, []);
 
-  return;
+  return null;
 }

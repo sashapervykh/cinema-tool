@@ -1,0 +1,11 @@
+.header-wrapper {
+  max-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
