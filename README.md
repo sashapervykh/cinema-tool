@@ -54,7 +54,6 @@ cp .env.default .env
 ```env
 VITE_API_URL=https://api.poiskkino.dev
 VITE_API_TOKEN=your_token_here
-VITE_API_MOCKED=false
 ```
 
 Получить токен можно на [poiskkino.dev](https://poiskkino.dev/).
