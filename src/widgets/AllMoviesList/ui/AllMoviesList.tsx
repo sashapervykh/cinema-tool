@@ -1,4 +1,4 @@
-import { Box, Paragraph, Spinner } from "@vkontakte/vkui";
+import { Box, Paragraph, Placeholder, Spinner } from "@vkontakte/vkui";
 import { useUnit } from "effector-react";
 import { useInfiniteScroll } from "../../../shared/models/useInfiniteScroll";
 import { $movies } from "../../../entities/movie/model/stores/movies.store";
@@ -8,14 +8,17 @@ import { MoviesList } from "../../../entities/movie/ui/MoviesList/MoviesList";
 import { $isLoading } from "../../../entities/movie/model/stores/loading.store";
 import { $next, loadNextPage } from "../../../entities/movie/model/stores/pagination.store";
 import styles from "./AllMoviesList.module.css";
+import { Icon56ErrorOutline } from "@vkontakte/icons";
+import { $moviesError } from "../../../entities/movie/model/stores/moviesError.store";
 
 export function AllMoviesList() {
-  const [isLoading, next, loadNext, filters, movies] = useUnit([
+  const [isLoading, next, loadNext, filters, movies, moviesError] = useUnit([
     $isLoading,
     $next,
     loadNextPage,
     $filters,
     $movies,
+    $moviesError,
   ]);
 
   const loaderRef = useInfiniteScroll({
@@ -24,6 +27,19 @@ export function AllMoviesList() {
     onLoadMore: loadNext,
     filters: getParamsFromFilters(filters),
   });
+
+  if (moviesError) {
+    return (
+      <Placeholder icon={<Icon56ErrorOutline />} title="Что-то пошло не так">
+        {moviesError}
+      </Placeholder>
+    );
+  }
+
+  if (!isLoading && movies.length === 0) {
+    return <Placeholder title="Фильмы не найдены">Попробуйте изменить фильтры</Placeholder>;
+  }
+
   return (
     <Box padding="l" className={styles["all-movies"]}>
       <MoviesList movies={movies} />

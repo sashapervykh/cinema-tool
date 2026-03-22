@@ -5,6 +5,7 @@ import type { HttpMethods } from "../types/HttpMethods";
 import { buildUrl } from "../lib/buildUrl";
 import mockedMovies from "../mocks/movies.mock.json" with { type: "json" };
 import mockedGenres from "../mocks/genres.mock.json" with { type: "json" };
+import { errorResponseSchema } from "../types/errorResponseSchema";
 
 interface Props<T> {
   endpoint?: string;
@@ -21,7 +22,6 @@ export async function fetchData<T extends ZodType>({
   params,
 }: Props<T>) {
   const url = buildUrl({ endpoint, params });
-  console.log(url.toString());
   let data: unknown;
   if (API_MOCKED) {
     const newDocs = mockedMovies.docs.map((elem) => ({
@@ -37,11 +37,18 @@ export async function fetchData<T extends ZodType>({
     });
     data = await promise;
   } else {
-    const response = await fetch(url.toString(), { method, headers: { "X-API-KEY": API_TOKEN } });
-    if (!response.ok) {
-      throw new Error((await response.json()).message);
+    try {
+      const response = await fetch(url.toString(), { method, headers: { "X-API-KEY": API_TOKEN } });
+      if (!response.ok) {
+        const data = await response.json();
+        const typedData = errorResponseSchema.safeParse(data);
+        if (typedData.error) throw new Error("Неожиданная ошибка сервера. Попробуйте позже...");
+        throw new Error(typedData.data?.message);
+      }
+      data = await response.json();
+    } catch {
+      throw new Error("Неожиданная ошибка сервера. Попробуйте позже...");
     }
-    data = await response.json();
   }
 
   return schema.parse(data);
