@@ -1,3 +1,10 @@
-.header {
+.app-wrapper {
   display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.main {
+  flex: 1;
 }

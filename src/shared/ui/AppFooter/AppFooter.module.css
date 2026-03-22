@@ -1,4 +1,9 @@
 .footer {
   display: flex;
   height: 5vh;
+  width: 100%;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  background-color: var(--vkui--color_background);
 }
