@@ -1,12 +1,10 @@
 import { combine, createEffect, createEvent, createStore, sample } from "effector";
-import { FILTERS_DATA } from "../constants/filtersData";
-import { fetchGenres } from "../api/fetchGenres";
+import { FILTERS_DATA } from "../../constants/filtersData";
 import type { NavigateFunction } from "react-router";
-import type { Filters } from "./types/Filters";
-import { getMoviesFx, resetMovies } from "../../../entities/movie/model/stores/movies.store";
-import { getParamsFromFilters } from "../lib/getParamsFromFilters";
+import type { Filters } from "../types/Filters";
+import { getMoviesFx, resetMovies } from "../../../../entities/movie/model/stores/movies.store";
+import { getParamsFromFilters } from "../../lib/getParamsFromFilters";
 
-export const getGenresFx = createEffect(fetchGenres);
 export const applyFilters = createEvent<NavigateFunction>();
 export const setKinopoiskRange = createEvent<[number, number]>();
 export const setImdbRange = createEvent<[number, number]>();
@@ -52,9 +50,6 @@ export const $yearRange = createStore<[number, number]>([
 export const $genres = createStore<string[]>([])
   .on(setGenres, (_, value) => value)
   .reset(resetFilters);
-export const $availableGenres = createStore<string[]>([]).on(getGenresFx.done, (_, data) =>
-  data.result.map(({ name }) => name)
-);
 
 export const $filters = combine({
   kinopoiskRange: $kinopoiskRange,

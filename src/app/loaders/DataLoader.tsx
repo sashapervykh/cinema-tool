@@ -1,7 +1,8 @@
 import { useUnit } from "effector-react";
 import { useEffect } from "react";
 import { useSearchParams } from "react-router";
-import { getGenresFx, initFiltersFx } from "../../features/filter-movies/model/filters.store";
+import { initFiltersFx } from "../../features/filter-movies/model/stores/filters.store";
+import { getGenresFx } from "../../features/filter-movies/model/stores/genres.store";
 
 export function DataLoader() {
   const [params] = useSearchParams();

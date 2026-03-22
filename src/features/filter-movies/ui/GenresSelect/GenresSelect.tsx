@@ -1,6 +1,7 @@
 import { ChipsSelect, Flex, Headline, Spacing } from "@vkontakte/vkui";
 import { useUnit } from "effector-react";
-import { $availableGenres, $genres, setGenres } from "../../model/filters.store";
+import { $genres, setGenres } from "../../model/stores/filters.store";
+import { $availableGenres } from "../../model/stores/genres.store";
 
 export function GenresSelect() {
   const [availableGenres, genres, set] = useUnit([$availableGenres, $genres, setGenres]);

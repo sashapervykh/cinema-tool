@@ -9,7 +9,7 @@ import {
   setImdbRange,
   setKinopoiskRange,
   setYearRange,
-} from "../model/filters.store";
+} from "../model/stores/filters.store";
 import { GenresSelect } from "./GenresSelect/GenresSelect";
 import { FilterControls } from "./FilterControls/FilterControls";
 
