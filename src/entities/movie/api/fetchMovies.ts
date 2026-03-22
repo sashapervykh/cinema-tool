@@ -4,15 +4,18 @@ import { searchResponseSchema } from "../model/schemas/searchResponseSchema";
 export async function fetchMovies({
   page,
   filters,
+  cursor,
 }: {
-  page: number;
+  page?: number;
   filters?: Record<string, string | string[]>;
+  cursor?: string | null;
 }) {
-  console.log(filters);
+  const pageParams = page ? { page: page?.toString() } : undefined;
+  const next = cursor ? { next: cursor } : undefined;
   const response = await fetchData({
     endpoint: "v1.5/movie",
     schema: searchResponseSchema,
-    params: { page: page.toString(), ...filters },
+    params: { ...pageParams, ...filters, ...next },
   });
 
   return response;

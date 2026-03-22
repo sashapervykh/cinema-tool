@@ -13,6 +13,7 @@ interface Props<T> {
   params?: Record<string, string | string[]>;
 }
 
+let n = 1;
 export async function fetchData<T extends ZodType>({
   endpoint,
   method = HTTP_METHODS.GET,
@@ -23,7 +24,18 @@ export async function fetchData<T extends ZodType>({
   console.log(url.toString());
   let data: unknown;
   if (API_MOCKED) {
-    data = endpoint === "v1.5/movie" ? mockedMovies : mockedGenres;
+    const newDocs = mockedMovies.docs.map((elem) => ({
+      ...elem,
+      id: elem.id * n,
+      name: elem.name + n,
+    }));
+    n++;
+    const newMockedMovies = { ...mockedMovies, docs: newDocs };
+    data = endpoint === "v1.5/movie" ? newMockedMovies : mockedGenres;
+    const promise = new Promise((res) => {
+      setTimeout(() => res(data), 30);
+    });
+    data = await promise;
   } else {
     const response = await fetch(url.toString(), { method, headers: { "X-API-KEY": API_TOKEN } });
     if (!response.ok) {

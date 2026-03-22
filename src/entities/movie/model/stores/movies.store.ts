@@ -4,7 +4,10 @@ import type { Movie } from "../types/Movie";
 
 export const getMoviesFx = createEffect(fetchMovies);
 export const resetMovies = createEvent();
-export const loadNextPage = createEvent();
+export const loadNextPage = createEvent<Record<string, string | string[]>>();
+export const $next = createStore<string | null>(null)
+  .on(getMoviesFx.doneData, (_, value) => value.next)
+  .reset(resetMovies);
 export const $movies = createStore<Movie[]>([])
   .on(getMoviesFx.doneData, (state, value) => [...state, ...value.docs])
   .reset(resetMovies);
@@ -17,5 +20,17 @@ sample({
   source: $isLoading,
   filter: (isLoading) => !isLoading,
   fn: (_, page) => ({ page }),
+  target: getMoviesFx,
+});
+
+sample({
+  clock: loadNextPage,
+  source: { cursor: $next },
+  filter: ({ cursor }) => Boolean(cursor),
+  fn: ({ cursor }, filters) => ({
+    filters,
+    cursor,
+    page: cursor ? undefined : 1,
+  }),
   target: getMoviesFx,
 });
