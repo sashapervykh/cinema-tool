@@ -1,12 +1,18 @@
-import { SimpleGrid } from "@vkontakte/vkui";
 import { MovieCard } from "../MovieCard/MovieCard";
 import { ComparingCheckbox } from "../../../../features/compare-movies/ui/ComparingCheckbox/ComparingCheckbox";
 import { FavoriteButton } from "../../../../features/toggle-favorite/ui/FavoriteButton/FavoriteButton";
 import type { Movie } from "../../model/types/Movie";
+import styles from "./MoviesList.module.css";
 
-export function MoviesList({ movies }: { movies: Movie[] }) {
+export function MoviesList({
+  movies,
+  withCheckBox = true,
+}: {
+  movies: Movie[];
+  withCheckBox?: boolean;
+}) {
   return (
-    <SimpleGrid minColWidth={250} gap="2xl">
+    <div className={styles["movies-grid"]}>
       {movies.map((movie) => {
         return (
           <MovieCard
@@ -18,13 +24,13 @@ export function MoviesList({ movies }: { movies: Movie[] }) {
             poster={movie.poster}
             actions={
               <>
-                <ComparingCheckbox movie={movie} />
+                {withCheckBox && <ComparingCheckbox movie={movie} />}
                 <FavoriteButton movie={movie} />
               </>
             }
           />
         );
       })}
-    </SimpleGrid>
+    </div>
   );
 }

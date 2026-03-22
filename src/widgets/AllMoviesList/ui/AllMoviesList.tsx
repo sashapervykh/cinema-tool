@@ -7,6 +7,7 @@ import { $filters } from "../../../features/filter-movies/model/stores/filters.s
 import { MoviesList } from "../../../entities/movie/ui/MoviesList/MoviesList";
 import { $isLoading } from "../../../entities/movie/model/stores/loading.store";
 import { $next, loadNextPage } from "../../../entities/movie/model/stores/pagination.store";
+import styles from "./AllMoviesList.module.css";
 
 export function AllMoviesList() {
   const [isLoading, next, loadNext, filters, movies] = useUnit([
@@ -24,9 +25,9 @@ export function AllMoviesList() {
     filters: getParamsFromFilters(filters),
   });
   return (
-    <Box padding="l" style={{ flex: 1, overflowY: "auto" }}>
+    <Box padding="l" className={styles["all-movies"]}>
       <MoviesList movies={movies} />
-      <div ref={loaderRef} style={{ height: "100px" }}>
+      <div ref={loaderRef} className={styles["hidden-area"]}>
         {isLoading && <Spinner size="xl" />}
       </div>
     </Box>

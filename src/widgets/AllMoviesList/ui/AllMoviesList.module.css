@@ -1,0 +1,8 @@
+.all-movies {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.hidden-area {
+  height: 100px;
+}
