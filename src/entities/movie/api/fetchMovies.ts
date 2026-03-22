@@ -14,6 +14,6 @@ export async function fetchMovies({
     schema: searchResponseSchema,
     params: { page: page.toString(), ...filters },
   });
-  console.log(response);
+
   return response;
 }

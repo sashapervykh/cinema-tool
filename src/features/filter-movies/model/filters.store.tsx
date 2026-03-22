@@ -99,7 +99,6 @@ export const initFiltersFx = createEffect((params: URLSearchParams) => {
     FILTERS_DATA.KINOPOISK_RANGE.min,
     FILTERS_DATA.KINOPOISK_RANGE.max,
   ];
-  console.log([yearFrom, yearTo]);
   return {
     genres,
     yearRange: [yearFrom, yearTo] as [number, number],
@@ -130,4 +129,17 @@ sample({
   clock: initFiltersFx.doneData,
   fn: ({ imdbRange }) => imdbRange,
   target: setImdbRange,
+});
+
+sample({
+  clock: initFiltersFx.doneData,
+  fn: (filters) => {
+    const params = getParamsFromFilters(filters);
+    console.log(params);
+    return {
+      page: 1,
+      filters: params,
+    };
+  },
+  target: getMoviesFx,
 });

@@ -20,19 +20,16 @@ export async function fetchData<T extends ZodType>({
   params,
 }: Props<T>) {
   const url = buildUrl({ endpoint, params });
-  console.log(params);
   console.log(url.toString());
   let data: unknown;
   if (API_MOCKED) {
     data = endpoint === "v1.5/movie" ? mockedMovies : mockedGenres;
-    console.log("mocked");
   } else {
     const response = await fetch(url.toString(), { method, headers: { "X-API-KEY": API_TOKEN } });
     if (!response.ok) {
       throw new Error((await response.json()).message);
     }
     data = await response.json();
-    console.log(data);
   }
 
   return schema.parse(data);

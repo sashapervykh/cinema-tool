@@ -1,8 +1,6 @@
 import type { Filters } from "../model/types/Filters";
 
 export function getParamsFromFilters(filters: Filters) {
-  console.log("processing");
-  console.log(filters);
   return {
     year: `${filters.yearRange[0]}-${filters.yearRange[1]}`,
     "rating.kp": `${filters.kinopoiskRange[0]}-${filters.kinopoiskRange[1]}`,

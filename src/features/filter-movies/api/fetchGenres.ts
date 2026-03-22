@@ -7,6 +7,5 @@ export async function fetchGenres() {
     schema: genresResponseSchema,
     params: { field: "genres.name" },
   });
-  console.log(response);
   return response;
 }
